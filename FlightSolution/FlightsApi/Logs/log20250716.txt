@@ -1,0 +1,935 @@
+2025-07-16 11:03:27.938 +03:00 [INF] Now listening on: https://localhost:7188
+2025-07-16 11:03:28.017 +03:00 [INF] Now listening on: http://localhost:5202
+2025-07-16 11:03:28.202 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-16 11:03:28.205 +03:00 [INF] Hosting environment: Development
+2025-07-16 11:03:28.207 +03:00 [INF] Content root path: C:\Users\shira\Desktop\FlightSolution\FlightsApi
+2025-07-16 11:03:32.493 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7188/swagger/index.html - null null
+2025-07-16 11:03:33.689 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7188/swagger/index.html - 200 null text/html;charset=utf-8 1207.188ms
+2025-07-16 11:03:34.274 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7188/_framework/aspnetcore-browser-refresh.js - null null
+2025-07-16 11:03:34.302 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7188/_vs/browserLink - null null
+2025-07-16 11:03:34.671 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7188/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 146.2542ms
+2025-07-16 11:03:34.990 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7188/_vs/browserLink - 200 null text/javascript; charset=UTF-8 687.7725ms
+2025-07-16 11:03:36.683 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7188/swagger/v1/swagger.json - null null
+2025-07-16 11:03:36.745 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7188/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 61.5404ms
+2025-07-16 11:04:30.368 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7188/api/Flights - null null
+2025-07-16 11:04:30.388 +03:00 [INF] Executing endpoint 'FlightsApi.Controllers.FlightsController.GetAllFlights (FlightsApi)'
+2025-07-16 11:04:30.421 +03:00 [INF] Route matched with {action = "GetAllFlights", controller = "Flights"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllFlights() on controller FlightsApi.Controllers.FlightsController (FlightsApi).
+2025-07-16 11:15:11.610 +03:00 [INF] GetAllFlights
+2025-07-16 11:15:55.896 +03:00 [ERR] Failed executing DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "f"."Id", "f"."CreatedAt", "f"."DepartureTime", "f"."Destination", "f"."FlightNumber", "f"."Gate"
+FROM "Flights" AS "f"
+2025-07-16 11:15:55.945 +03:00 [ERR] An exception occurred while iterating over the results of a query for context type 'FlightsDl.FlightDbContext'.
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: Flights'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Storage.NonRetryingExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: Flights'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Storage.NonRetryingExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+2025-07-16 11:21:24.452 +03:00 [INF] Now listening on: https://localhost:7188
+2025-07-16 11:21:24.610 +03:00 [INF] Now listening on: http://localhost:5202
+2025-07-16 11:21:25.318 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-16 11:21:25.330 +03:00 [INF] Hosting environment: Development
+2025-07-16 11:21:25.334 +03:00 [INF] Content root path: C:\Users\shira\Desktop\FlightSolution\FlightsApi
+2025-07-16 11:21:26.814 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7188/swagger/index.html - null null
+2025-07-16 11:21:31.811 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7188/swagger/index.html - 200 null text/html;charset=utf-8 5016.9129ms
+2025-07-16 11:21:33.035 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7188/_framework/aspnetcore-browser-refresh.js - null null
+2025-07-16 11:21:33.083 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7188/_vs/browserLink - null null
+2025-07-16 11:21:33.120 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7188/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 83.0203ms
+2025-07-16 11:21:33.223 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7188/_vs/browserLink - 200 null text/javascript; charset=UTF-8 140.0837ms
+2025-07-16 11:21:34.341 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7188/swagger/v1/swagger.json - null null
+2025-07-16 11:21:34.375 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7188/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 34.5902ms
+2025-07-16 11:21:39.743 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7188/api/Flights - null null
+2025-07-16 11:21:39.761 +03:00 [INF] Executing endpoint 'FlightsApi.Controllers.FlightsController.GetAllFlights (FlightsApi)'
+2025-07-16 11:21:39.793 +03:00 [INF] Route matched with {action = "GetAllFlights", controller = "Flights"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllFlights() on controller FlightsApi.Controllers.FlightsController (FlightsApi).
+2025-07-16 11:49:15.362 +03:00 [INF] Now listening on: https://localhost:7188
+2025-07-16 11:49:15.411 +03:00 [INF] Now listening on: http://localhost:5202
+2025-07-16 11:49:15.639 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-16 11:49:15.641 +03:00 [INF] Hosting environment: Development
+2025-07-16 11:49:15.642 +03:00 [INF] Content root path: C:\Users\shira\Desktop\FlightSolution\FlightsApi
+2025-07-16 11:49:16.762 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7188/swagger/index.html - null null
+2025-07-16 11:49:17.098 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7188/swagger/index.html - 200 null text/html;charset=utf-8 342.2407ms
+2025-07-16 11:49:17.197 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7188/_framework/aspnetcore-browser-refresh.js - null null
+2025-07-16 11:49:17.246 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7188/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 49.0232ms
+2025-07-16 11:49:18.437 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7188/_vs/browserLink - null null
+2025-07-16 11:49:18.654 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7188/_vs/browserLink - 200 null text/javascript; charset=UTF-8 216.8055ms
+2025-07-16 11:49:20.116 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7188/swagger/v1/swagger.json - null null
+2025-07-16 11:49:20.144 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7188/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 28.2195ms
+2025-07-16 11:49:26.017 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7188/api/Flights - null null
+2025-07-16 11:49:26.060 +03:00 [INF] Executing endpoint 'FlightsApi.Controllers.FlightsController.GetAllFlights (FlightsApi)'
+2025-07-16 11:49:26.192 +03:00 [INF] Route matched with {action = "GetAllFlights", controller = "Flights"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllFlights() on controller FlightsApi.Controllers.FlightsController (FlightsApi).
+2025-07-16 11:49:38.226 +03:00 [INF] GetAllFlights
+2025-07-16 11:49:43.443 +03:00 [ERR] Failed executing DbCommand (96ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "f"."Id", "f"."CreatedAt", "f"."DepartureTime", "f"."Destination", "f"."FlightNumber", "f"."Gate"
+FROM "Flights" AS "f"
+2025-07-16 11:49:44.508 +03:00 [ERR] An exception occurred while iterating over the results of a query for context type 'FlightsDl.FlightDbContext'.
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: Flights'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Storage.NonRetryingExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: Flights'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Storage.NonRetryingExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+2025-07-16 11:49:45.050 +03:00 [ERR] SQLite Error 1: 'no such table: Flights'.
+2025-07-16 11:49:45.102 +03:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2025-07-16 11:49:45.140 +03:00 [INF] Executed action FlightsApi.Controllers.FlightsController.GetAllFlights (FlightsApi) in 18911.5367ms
+2025-07-16 11:49:45.155 +03:00 [INF] Executed endpoint 'FlightsApi.Controllers.FlightsController.GetAllFlights (FlightsApi)'
+2025-07-16 11:49:45.227 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7188/api/Flights - 500 null text/plain; charset=utf-8 19209.3286ms
+2025-07-16 11:50:27.028 +03:00 [INF] Now listening on: https://localhost:7188
+2025-07-16 11:50:27.213 +03:00 [INF] Now listening on: http://localhost:5202
+2025-07-16 11:50:27.961 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-16 11:50:27.966 +03:00 [INF] Hosting environment: Development
+2025-07-16 11:50:27.969 +03:00 [INF] Content root path: C:\Users\shira\Desktop\FlightSolution\FlightsApi
+2025-07-16 11:50:29.459 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7188/swagger/index.html - null null
+2025-07-16 11:50:31.023 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7188/swagger/index.html - 200 null text/html;charset=utf-8 1578.9124ms
+2025-07-16 11:50:31.292 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7188/_framework/aspnetcore-browser-refresh.js - null null
+2025-07-16 11:50:31.455 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7188/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 161.7866ms
+2025-07-16 11:50:32.007 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7188/_vs/browserLink - null null
+2025-07-16 11:50:32.973 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7188/_vs/browserLink - 200 null text/javascript; charset=UTF-8 965.8115ms
+2025-07-16 11:50:36.841 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7188/swagger/v1/swagger.json - null null
+2025-07-16 11:50:36.866 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7188/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 25.8651ms
+2025-07-16 11:50:42.631 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7188/api/Flights - null null
+2025-07-16 11:50:42.643 +03:00 [INF] Executing endpoint 'FlightsApi.Controllers.FlightsController.GetAllFlights (FlightsApi)'
+2025-07-16 11:50:42.671 +03:00 [INF] Route matched with {action = "GetAllFlights", controller = "Flights"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllFlights() on controller FlightsApi.Controllers.FlightsController (FlightsApi).
+2025-07-16 11:51:28.523 +03:00 [INF] GetAllFlights
+2025-07-16 11:51:42.118 +03:00 [ERR] Failed executing DbCommand (87ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "f"."Id", "f"."CreatedAt", "f"."DepartureTime", "f"."Destination", "f"."FlightNumber", "f"."Gate"
+FROM "Flights" AS "f"
+2025-07-16 11:51:42.317 +03:00 [ERR] An exception occurred while iterating over the results of a query for context type 'FlightsDl.FlightDbContext'.
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: Flights'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Storage.NonRetryingExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: Flights'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Storage.NonRetryingExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+2025-07-16 11:53:29.641 +03:00 [INF] Now listening on: https://localhost:7188
+2025-07-16 11:53:29.688 +03:00 [INF] Now listening on: http://localhost:5202
+2025-07-16 11:53:29.925 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-16 11:53:29.932 +03:00 [INF] Hosting environment: Development
+2025-07-16 11:53:29.940 +03:00 [INF] Content root path: C:\Users\shira\Desktop\FlightSolution\FlightsApi
+2025-07-16 11:53:39.275 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7188/swagger/index.html - null null
+2025-07-16 11:53:40.898 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7188/swagger/index.html - 200 null text/html;charset=utf-8 1635.2772ms
+2025-07-16 11:53:41.962 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7188/_vs/browserLink - null null
+2025-07-16 11:53:41.962 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7188/_framework/aspnetcore-browser-refresh.js - null null
+2025-07-16 11:53:42.009 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7188/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 47.3184ms
+2025-07-16 11:53:42.127 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7188/_vs/browserLink - 200 null text/javascript; charset=UTF-8 166.1311ms
+2025-07-16 11:53:43.694 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7188/swagger/v1/swagger.json - null null
+2025-07-16 11:53:43.738 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7188/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 43.9744ms
+2025-07-16 11:53:48.393 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7188/api/Flights - null null
+2025-07-16 11:53:48.450 +03:00 [INF] Executing endpoint 'FlightsApi.Controllers.FlightsController.GetAllFlights (FlightsApi)'
+2025-07-16 11:53:48.581 +03:00 [INF] Route matched with {action = "GetAllFlights", controller = "Flights"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllFlights() on controller FlightsApi.Controllers.FlightsController (FlightsApi).
+2025-07-16 11:55:11.633 +03:00 [INF] GetAllFlights
+2025-07-16 11:55:12.446 +03:00 [ERR] Failed executing DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "f"."Id", "f"."CreatedAt", "f"."DepartureTime", "f"."Destination", "f"."FlightNumber", "f"."Gate"
+FROM "Flights" AS "f"
+2025-07-16 11:55:12.499 +03:00 [ERR] An exception occurred while iterating over the results of a query for context type 'FlightsDl.FlightDbContext'.
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: Flights'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Storage.NonRetryingExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: Flights'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Storage.NonRetryingExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+2025-07-16 11:55:12.553 +03:00 [ERR] SQLite Error 1: 'no such table: Flights'.
+2025-07-16 11:55:12.562 +03:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2025-07-16 11:55:12.570 +03:00 [INF] Executed action FlightsApi.Controllers.FlightsController.GetAllFlights (FlightsApi) in 83974.8312ms
+2025-07-16 11:55:12.572 +03:00 [INF] Executed endpoint 'FlightsApi.Controllers.FlightsController.GetAllFlights (FlightsApi)'
+2025-07-16 11:55:12.581 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7188/api/Flights - 500 null text/plain; charset=utf-8 84188.8256ms
+2025-07-16 11:57:26.192 +03:00 [INF] Now listening on: https://localhost:7188
+2025-07-16 11:57:26.473 +03:00 [INF] Now listening on: http://localhost:5202
+2025-07-16 11:57:27.395 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-16 11:57:27.532 +03:00 [INF] Hosting environment: Development
+2025-07-16 11:57:27.554 +03:00 [INF] Content root path: C:\Users\shira\Desktop\FlightSolution\FlightsApi
+2025-07-16 11:57:28.269 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7188/swagger/index.html - null null
+2025-07-16 11:57:29.892 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7188/swagger/index.html - 200 null text/html;charset=utf-8 1624.3685ms
+2025-07-16 11:57:31.186 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7188/_vs/browserLink - null null
+2025-07-16 11:57:31.200 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7188/_framework/aspnetcore-browser-refresh.js - null null
+2025-07-16 11:57:31.316 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7188/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 115.1843ms
+2025-07-16 11:57:31.668 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7188/_vs/browserLink - 200 null text/javascript; charset=UTF-8 482.0783ms
+2025-07-16 11:57:39.324 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7188/swagger/v1/swagger.json - null null
+2025-07-16 11:57:39.542 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7188/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 218.5604ms
+2025-07-16 11:57:47.273 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7188/api/Flights - null null
+2025-07-16 11:57:47.287 +03:00 [INF] Executing endpoint 'FlightsApi.Controllers.FlightsController.GetAllFlights (FlightsApi)'
+2025-07-16 11:57:47.324 +03:00 [INF] Route matched with {action = "GetAllFlights", controller = "Flights"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllFlights() on controller FlightsApi.Controllers.FlightsController (FlightsApi).
+2025-07-16 11:57:54.616 +03:00 [INF] GetAllFlights
+2025-07-16 11:57:56.474 +03:00 [ERR] Failed executing DbCommand (57ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "f"."Id", "f"."CreatedAt", "f"."DepartureTime", "f"."Destination", "f"."FlightNumber", "f"."Gate"
+FROM "Flights" AS "f"
+2025-07-16 11:57:56.705 +03:00 [ERR] An exception occurred while iterating over the results of a query for context type 'FlightsDl.FlightDbContext'.
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: Flights'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Storage.NonRetryingExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: Flights'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Storage.NonRetryingExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+2025-07-16 11:57:57.069 +03:00 [ERR] SQLite Error 1: 'no such table: Flights'.
+2025-07-16 11:57:57.111 +03:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2025-07-16 11:57:57.152 +03:00 [INF] Executed action FlightsApi.Controllers.FlightsController.GetAllFlights (FlightsApi) in 9796.3019ms
+2025-07-16 11:57:57.168 +03:00 [INF] Executed endpoint 'FlightsApi.Controllers.FlightsController.GetAllFlights (FlightsApi)'
+2025-07-16 11:57:57.228 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7188/api/Flights - 500 null text/plain; charset=utf-8 9954.5244ms
+2025-07-16 12:00:54.715 +03:00 [INF] Now listening on: https://localhost:7188
+2025-07-16 12:00:55.141 +03:00 [INF] Now listening on: http://localhost:5202
+2025-07-16 12:00:56.333 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-16 12:00:58.041 +03:00 [INF] Hosting environment: Development
+2025-07-16 12:00:58.225 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7188/swagger/index.html - null null
+2025-07-16 12:00:58.357 +03:00 [INF] Content root path: C:\Users\shira\Desktop\FlightSolution\FlightsApi
+2025-07-16 12:01:00.604 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7188/swagger/index.html - 200 null text/html;charset=utf-8 2402.223ms
+2025-07-16 12:01:01.664 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7188/_vs/browserLink - null null
+2025-07-16 12:01:01.666 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7188/_framework/aspnetcore-browser-refresh.js - null null
+2025-07-16 12:01:01.752 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7188/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 85.7671ms
+2025-07-16 12:01:02.125 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7188/_vs/browserLink - 200 null text/javascript; charset=UTF-8 460.1146ms
+2025-07-16 12:01:05.396 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7188/swagger/v1/swagger.json - null null
+2025-07-16 12:01:05.421 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7188/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 25.1791ms
+2025-07-16 12:01:15.847 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7188/api/Flights - null null
+2025-07-16 12:01:15.861 +03:00 [INF] Executing endpoint 'FlightsApi.Controllers.FlightsController.GetAllFlights (FlightsApi)'
+2025-07-16 12:01:15.890 +03:00 [INF] Route matched with {action = "GetAllFlights", controller = "Flights"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllFlights() on controller FlightsApi.Controllers.FlightsController (FlightsApi).
+2025-07-16 12:01:49.474 +03:00 [INF] GetAllFlights
+2025-07-16 12:01:57.803 +03:00 [ERR] Failed executing DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "f"."Id", "f"."CreatedAt", "f"."DepartureTime", "f"."Destination", "f"."FlightNumber", "f"."Gate"
+FROM "Flights" AS "f"
+2025-07-16 12:01:57.843 +03:00 [ERR] An exception occurred while iterating over the results of a query for context type 'FlightsDl.FlightDbContext'.
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: Flights'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Storage.NonRetryingExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: Flights'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Storage.NonRetryingExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+2025-07-16 12:02:28.292 +03:00 [ERR] SQLite Error 1: 'no such table: Flights'.
+2025-07-16 12:02:28.332 +03:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2025-07-16 12:02:28.340 +03:00 [INF] Executed action FlightsApi.Controllers.FlightsController.GetAllFlights (FlightsApi) in 72443.4706ms
+2025-07-16 12:02:28.343 +03:00 [INF] Executed endpoint 'FlightsApi.Controllers.FlightsController.GetAllFlights (FlightsApi)'
+2025-07-16 12:02:28.353 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7188/api/Flights - 500 null text/plain; charset=utf-8 72506.7723ms
+2025-07-16 12:05:25.426 +03:00 [INF] Now listening on: https://localhost:7188
+2025-07-16 12:05:25.504 +03:00 [INF] Now listening on: http://localhost:5202
+2025-07-16 12:05:26.053 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-16 12:05:26.055 +03:00 [INF] Hosting environment: Development
+2025-07-16 12:05:26.059 +03:00 [INF] Content root path: C:\Users\shira\Desktop\FlightSolution\FlightsApi
+2025-07-16 12:05:26.306 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7188/swagger/index.html - null null
+2025-07-16 12:05:26.708 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7188/swagger/index.html - 200 null text/html;charset=utf-8 401.286ms
+2025-07-16 12:05:26.789 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7188/_framework/aspnetcore-browser-refresh.js - null null
+2025-07-16 12:05:26.839 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7188/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 50.0087ms
+2025-07-16 12:05:27.030 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7188/_vs/browserLink - null null
+2025-07-16 12:05:27.214 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7188/_vs/browserLink - 200 null text/javascript; charset=UTF-8 183.8063ms
+2025-07-16 12:05:31.543 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7188/swagger/v1/swagger.json - null null
+2025-07-16 12:05:31.645 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7188/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 101.8817ms
+2025-07-16 12:05:38.414 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7188/api/Flights - null null
+2025-07-16 12:05:38.429 +03:00 [INF] Executing endpoint 'FlightsApi.Controllers.FlightsController.GetAllFlights (FlightsApi)'
+2025-07-16 12:05:38.465 +03:00 [INF] Route matched with {action = "GetAllFlights", controller = "Flights"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllFlights() on controller FlightsApi.Controllers.FlightsController (FlightsApi).
+2025-07-16 12:05:57.221 +03:00 [INF] GetAllFlights
+2025-07-16 12:06:03.029 +03:00 [ERR] Failed executing DbCommand (62ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "f"."Id", "f"."CreatedAt", "f"."DepartureTime", "f"."Destination", "f"."FlightNumber", "f"."Gate"
+FROM "Flights" AS "f"
+2025-07-16 12:06:03.228 +03:00 [ERR] An exception occurred while iterating over the results of a query for context type 'FlightsDl.FlightDbContext'.
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: Flights'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Storage.NonRetryingExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: Flights'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Storage.NonRetryingExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+2025-07-16 12:06:03.521 +03:00 [ERR] SQLite Error 1: 'no such table: Flights'.
+2025-07-16 12:06:03.560 +03:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2025-07-16 12:06:03.612 +03:00 [INF] Executed action FlightsApi.Controllers.FlightsController.GetAllFlights (FlightsApi) in 25103.4361ms
+2025-07-16 12:06:03.618 +03:00 [INF] Executed endpoint 'FlightsApi.Controllers.FlightsController.GetAllFlights (FlightsApi)'
+2025-07-16 12:06:03.670 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7188/api/Flights - 500 null text/plain; charset=utf-8 25255.1818ms
+2025-07-16 12:10:34.732 +03:00 [INF] Now listening on: https://localhost:7188
+2025-07-16 12:10:34.971 +03:00 [INF] Now listening on: http://localhost:5202
+2025-07-16 12:10:35.874 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-16 12:10:35.887 +03:00 [INF] Hosting environment: Development
+2025-07-16 12:10:35.896 +03:00 [INF] Content root path: C:\Users\shira\Desktop\FlightSolution\FlightsApi
+2025-07-16 12:10:37.744 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7188/swagger/index.html - null null
+2025-07-16 12:10:39.884 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7188/swagger/index.html - 200 null text/html;charset=utf-8 2154.3926ms
+2025-07-16 12:10:40.421 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7188/_framework/aspnetcore-browser-refresh.js - null null
+2025-07-16 12:10:40.424 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7188/_vs/browserLink - null null
+2025-07-16 12:10:40.452 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7188/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 30.8747ms
+2025-07-16 12:10:40.629 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7188/_vs/browserLink - 200 null text/javascript; charset=UTF-8 204.5427ms
+2025-07-16 12:10:42.109 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7188/swagger/v1/swagger.json - null null
+2025-07-16 12:10:42.147 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7188/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 37.716ms
+2025-07-16 12:10:47.686 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7188/api/Flights - null null
+2025-07-16 12:10:47.698 +03:00 [INF] Executing endpoint 'FlightsApi.Controllers.FlightsController.GetAllFlights (FlightsApi)'
+2025-07-16 12:10:47.743 +03:00 [INF] Route matched with {action = "GetAllFlights", controller = "Flights"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllFlights() on controller FlightsApi.Controllers.FlightsController (FlightsApi).
+2025-07-16 12:11:57.213 +03:00 [INF] GetAllFlights
+2025-07-16 12:11:59.215 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7188/swagger/index.html - null null
+2025-07-16 12:12:00.446 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7188/swagger/index.html - 200 null text/html;charset=utf-8 1230.4773ms
+2025-07-16 12:12:01.647 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7188/_vs/browserLink - null null
+2025-07-16 12:12:01.488 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7188/_framework/aspnetcore-browser-refresh.js - null null
+2025-07-16 12:12:02.220 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7188/_vs/browserLink - 200 null text/javascript; charset=UTF-8 573.7492ms
+2025-07-16 12:12:02.279 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7188/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 790.5057ms
+2025-07-16 12:12:04.363 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7188/swagger/v1/swagger.json - null null
+2025-07-16 12:12:04.556 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7188/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 192.1023ms
+2025-07-16 12:12:04.747 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7188/swagger/favicon-32x32.png - null null
+2025-07-16 12:12:05.143 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-07-16 12:12:05.155 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7188/swagger/favicon-32x32.png - 200 628 image/png 408.5446ms
+2025-07-16 12:12:05.750 +03:00 [ERR] Failed executing DbCommand (104ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "f"."Id", "f"."CreatedAt", "f"."DepartureTime", "f"."Destination", "f"."FlightNumber", "f"."Gate"
+FROM "Flights" AS "f"
+2025-07-16 12:12:06.041 +03:00 [ERR] An exception occurred while iterating over the results of a query for context type 'FlightsDl.FlightDbContext'.
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: Flights'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Storage.NonRetryingExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: Flights'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Storage.NonRetryingExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+2025-07-16 12:12:06.536 +03:00 [ERR] SQLite Error 1: 'no such table: Flights'.
+2025-07-16 12:12:06.559 +03:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2025-07-16 12:12:06.593 +03:00 [INF] Executed action FlightsApi.Controllers.FlightsController.GetAllFlights (FlightsApi) in 78827.847ms
+2025-07-16 12:12:06.608 +03:00 [INF] Executed endpoint 'FlightsApi.Controllers.FlightsController.GetAllFlights (FlightsApi)'
+2025-07-16 12:12:06.665 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7188/api/Flights - 500 null text/plain; charset=utf-8 78978.9859ms
+2025-07-16 12:13:09.360 +03:00 [INF] Now listening on: https://localhost:7188
+2025-07-16 12:13:09.405 +03:00 [INF] Now listening on: http://localhost:5202
+2025-07-16 12:13:09.632 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-16 12:13:09.634 +03:00 [INF] Hosting environment: Development
+2025-07-16 12:13:09.636 +03:00 [INF] Content root path: C:\Users\shira\Desktop\FlightSolution\FlightsApi
+2025-07-16 12:13:10.733 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7188/swagger/index.html - null null
+2025-07-16 12:13:11.072 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7188/swagger/index.html - 200 null text/html;charset=utf-8 347.1381ms
+2025-07-16 12:13:11.136 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7188/_framework/aspnetcore-browser-refresh.js - null null
+2025-07-16 12:13:11.164 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7188/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 28.0016ms
+2025-07-16 12:13:11.381 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7188/_vs/browserLink - null null
+2025-07-16 12:13:11.605 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7188/_vs/browserLink - 200 null text/javascript; charset=UTF-8 224.3984ms
+2025-07-16 12:13:12.810 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7188/swagger/v1/swagger.json - null null
+2025-07-16 12:13:12.836 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7188/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 25.5841ms
+2025-07-16 12:13:17.747 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7188/api/Flights - null null
+2025-07-16 12:13:17.799 +03:00 [INF] Executing endpoint 'FlightsApi.Controllers.FlightsController.GetAllFlights (FlightsApi)'
+2025-07-16 12:13:17.911 +03:00 [INF] Route matched with {action = "GetAllFlights", controller = "Flights"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllFlights() on controller FlightsApi.Controllers.FlightsController (FlightsApi).
+2025-07-16 12:13:32.205 +03:00 [INF] GetAllFlights
+2025-07-16 12:13:32.933 +03:00 [ERR] Failed executing DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "f"."Id", "f"."CreatedAt", "f"."DepartureTime", "f"."Destination", "f"."FlightNumber", "f"."Gate"
+FROM "Flights" AS "f"
+2025-07-16 12:13:32.974 +03:00 [ERR] An exception occurred while iterating over the results of a query for context type 'FlightsDl.FlightDbContext'.
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: Flights'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Storage.NonRetryingExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: Flights'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Storage.NonRetryingExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+2025-07-16 12:13:33.030 +03:00 [ERR] SQLite Error 1: 'no such table: Flights'.
+2025-07-16 12:13:33.040 +03:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2025-07-16 12:13:33.047 +03:00 [INF] Executed action FlightsApi.Controllers.FlightsController.GetAllFlights (FlightsApi) in 15123.2768ms
+2025-07-16 12:13:33.050 +03:00 [INF] Executed endpoint 'FlightsApi.Controllers.FlightsController.GetAllFlights (FlightsApi)'
+2025-07-16 12:13:33.060 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7188/api/Flights - 500 null text/plain; charset=utf-8 15312.7971ms
+2025-07-16 22:01:01.837 +03:00 [INF] Now listening on: http://localhost:5202
+2025-07-16 22:01:02.049 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-16 22:01:02.053 +03:00 [INF] Hosting environment: Development
+2025-07-16 22:01:02.056 +03:00 [INF] Content root path: C:\Users\shira\Desktop\FlightSolution\FlightsApi
+2025-07-16 22:01:02.920 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5202/swagger - null null
+2025-07-16 22:01:03.251 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5202/swagger - 301 0 null 342.3874ms
+2025-07-16 22:01:03.263 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5202/swagger/index.html - null null
+2025-07-16 22:01:03.361 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5202/swagger/index.html - 200 null text/html;charset=utf-8 98.5083ms
+2025-07-16 22:01:03.412 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5202/swagger/swagger-ui.css - null null
+2025-07-16 22:01:03.418 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5202/swagger/swagger-ui-standalone-preset.js - null null
+2025-07-16 22:01:03.418 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5202/swagger/swagger-ui-bundle.js - null null
+2025-07-16 22:01:03.521 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-07-16 22:01:03.526 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-07-16 22:01:03.531 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5202/swagger/swagger-ui.css - 200 152034 text/css 118.7021ms
+2025-07-16 22:01:03.531 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5202/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 112.7092ms
+2025-07-16 22:01:03.543 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-07-16 22:01:03.551 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5202/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 132.4443ms
+2025-07-16 22:01:03.659 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5202/_vs/browserLink - null null
+2025-07-16 22:01:03.661 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5202/_framework/aspnetcore-browser-refresh.js - null null
+2025-07-16 22:01:03.671 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5202/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 10.6898ms
+2025-07-16 22:01:03.758 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5202/_vs/browserLink - 200 null text/javascript; charset=UTF-8 98.9181ms
+2025-07-16 22:01:04.839 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5202/swagger/v1/swagger.json - null null
+2025-07-16 22:01:04.861 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5202/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 22.4332ms
+2025-07-16 22:01:04.897 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5202/swagger/favicon-32x32.png - null null
+2025-07-16 22:01:04.924 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-07-16 22:01:04.933 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5202/swagger/favicon-32x32.png - 200 628 image/png 35.4148ms
+2025-07-16 22:01:17.301 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5202/api/Flights - null null
+2025-07-16 22:01:17.316 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-07-16 22:01:17.327 +03:00 [INF] Executing endpoint 'FlightsApi.Controllers.FlightsController.GetAllFlights (FlightsApi)'
+2025-07-16 22:01:17.388 +03:00 [INF] Route matched with {action = "GetAllFlights", controller = "Flights"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllFlights() on controller FlightsApi.Controllers.FlightsController (FlightsApi).
+2025-07-16 22:01:28.318 +03:00 [INF] GetAllFlights
+2025-07-16 22:02:12.399 +03:00 [ERR] Failed executing DbCommand (40ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "f"."Id", "f"."CreatedAt", "f"."DepartureTime", "f"."Destination", "f"."FlightNumber", "f"."Gate"
+FROM "Flights" AS "f"
+2025-07-16 22:02:12.556 +03:00 [ERR] An exception occurred while iterating over the results of a query for context type 'FlightsDl.FlightDbContext'.
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: Flights'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Storage.NonRetryingExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: Flights'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Storage.NonRetryingExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+2025-07-16 22:03:03.060 +03:00 [INF] Now listening on: http://localhost:5202
+2025-07-16 22:03:03.344 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-16 22:03:03.349 +03:00 [INF] Hosting environment: Development
+2025-07-16 22:03:03.350 +03:00 [INF] Content root path: C:\Users\shira\Desktop\FlightSolution\FlightsApi
+2025-07-16 22:03:04.393 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5202/swagger/index.html - null null
+2025-07-16 22:03:04.839 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5202/swagger/index.html - 200 null text/html;charset=utf-8 450.4846ms
+2025-07-16 22:03:05.200 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5202/_vs/browserLink - null null
+2025-07-16 22:03:05.200 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5202/_framework/aspnetcore-browser-refresh.js - null null
+2025-07-16 22:03:05.218 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5202/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 18.2754ms
+2025-07-16 22:03:05.273 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5202/_vs/browserLink - 200 null text/javascript; charset=UTF-8 73.8598ms
+2025-07-16 22:03:06.304 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5202/swagger/v1/swagger.json - null null
+2025-07-16 22:03:06.343 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5202/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 38.6677ms
+2025-07-16 22:03:16.482 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5202/api/Flights - null null
+2025-07-16 22:03:16.500 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-07-16 22:03:16.512 +03:00 [INF] Executing endpoint 'FlightsApi.Controllers.FlightsController.GetAllFlights (FlightsApi)'
+2025-07-16 22:03:16.585 +03:00 [INF] Route matched with {action = "GetAllFlights", controller = "Flights"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllFlights() on controller FlightsApi.Controllers.FlightsController (FlightsApi).
+2025-07-16 22:03:31.501 +03:00 [INF] GetAllFlights
+2025-07-16 22:13:53.596 +03:00 [INF] Now listening on: http://localhost:5202
+2025-07-16 22:13:53.741 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-16 22:13:53.743 +03:00 [INF] Hosting environment: Development
+2025-07-16 22:13:53.744 +03:00 [INF] Content root path: C:\Users\shira\Desktop\FlightSolution\FlightsApi
+2025-07-16 22:13:54.830 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5202/swagger/index.html - null null
+2025-07-16 22:13:55.477 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5202/swagger/index.html - 200 null text/html;charset=utf-8 650.2472ms
+2025-07-16 22:13:55.820 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5202/_vs/browserLink - null null
+2025-07-16 22:13:55.941 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5202/_vs/browserLink - 200 null text/javascript; charset=UTF-8 121.8546ms
+2025-07-16 22:13:55.973 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5202/_framework/aspnetcore-browser-refresh.js - null null
+2025-07-16 22:13:55.985 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5202/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 11.6866ms
+2025-07-16 22:13:57.511 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5202/swagger/v1/swagger.json - null null
+2025-07-16 22:13:57.527 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5202/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 16.2735ms
+2025-07-16 22:14:22.884 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5202/api/Flights - null null
+2025-07-16 22:14:22.898 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-07-16 22:14:22.903 +03:00 [INF] Executing endpoint 'FlightsApi.Controllers.FlightsController.GetAllFlights (FlightsApi)'
+2025-07-16 22:14:22.928 +03:00 [INF] Route matched with {action = "GetAllFlights", controller = "Flights"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllFlights() on controller FlightsApi.Controllers.FlightsController (FlightsApi).
+2025-07-16 22:14:34.777 +03:00 [INF] GetAllFlights
+2025-07-16 22:14:42.352 +03:00 [ERR] Failed executing DbCommand (19ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "f"."Id", "f"."CreatedAt", "f"."DepartureTime", "f"."Destination", "f"."FlightNumber", "f"."Gate"
+FROM "Flights" AS "f"
+2025-07-16 22:14:42.451 +03:00 [ERR] An exception occurred while iterating over the results of a query for context type 'FlightsDl.FlightDbContext'.
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: Flights'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Storage.NonRetryingExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: Flights'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Storage.NonRetryingExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+2025-07-16 22:18:11.501 +03:00 [INF] Now listening on: http://localhost:5202
+2025-07-16 22:18:12.043 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-16 22:18:12.046 +03:00 [INF] Hosting environment: Development
+2025-07-16 22:18:12.048 +03:00 [INF] Content root path: C:\Users\shira\Desktop\FlightSolution\FlightsApi
+2025-07-16 22:18:12.773 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5202/swagger/index.html - null null
+2025-07-16 22:18:13.296 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5202/swagger/index.html - 200 null text/html;charset=utf-8 533.3516ms
+2025-07-16 22:18:13.792 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5202/_vs/browserLink - null null
+2025-07-16 22:18:13.792 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5202/_framework/aspnetcore-browser-refresh.js - null null
+2025-07-16 22:18:13.809 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5202/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 18.0385ms
+2025-07-16 22:18:13.894 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5202/_vs/browserLink - 200 null text/javascript; charset=UTF-8 103.3127ms
+2025-07-16 22:18:15.193 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5202/swagger/v1/swagger.json - null null
+2025-07-16 22:18:15.348 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5202/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 155.5077ms
+2025-07-16 22:18:20.927 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5202/api/Flights - null null
+2025-07-16 22:18:20.947 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-07-16 22:18:20.962 +03:00 [INF] Executing endpoint 'FlightsApi.Controllers.FlightsController.GetAllFlights (FlightsApi)'
+2025-07-16 22:18:21.024 +03:00 [INF] Route matched with {action = "GetAllFlights", controller = "Flights"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllFlights() on controller FlightsApi.Controllers.FlightsController (FlightsApi).
+2025-07-16 22:18:24.284 +03:00 [INF] GetAllFlights
+2025-07-16 22:18:28.157 +03:00 [ERR] Failed executing DbCommand (33ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "f"."Id", "f"."CreatedAt", "f"."DepartureTime", "f"."Destination", "f"."FlightNumber", "f"."Gate"
+FROM "Flights" AS "f"
+2025-07-16 22:18:28.277 +03:00 [ERR] An exception occurred while iterating over the results of a query for context type 'FlightsDl.FlightDbContext'.
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: Flights'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Storage.NonRetryingExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: Flights'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Storage.NonRetryingExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+2025-07-16 22:18:28.402 +03:00 [ERR] SQLite Error 1: 'no such table: Flights'.
+2025-07-16 22:18:28.424 +03:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2025-07-16 22:18:28.441 +03:00 [INF] Executed action FlightsApi.Controllers.FlightsController.GetAllFlights (FlightsApi) in 7403.1037ms
+2025-07-16 22:18:28.446 +03:00 [INF] Executed endpoint 'FlightsApi.Controllers.FlightsController.GetAllFlights (FlightsApi)'
+2025-07-16 22:18:28.475 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5202/api/Flights - 500 null text/plain; charset=utf-8 7547.581ms
+2025-07-16 22:18:58.400 +03:00 [INF] Now listening on: http://localhost:5202
+2025-07-16 22:18:58.531 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-16 22:18:58.533 +03:00 [INF] Hosting environment: Development
+2025-07-16 22:18:58.534 +03:00 [INF] Content root path: C:\Users\shira\Desktop\FlightSolution\FlightsApi
+2025-07-16 22:19:24.862 +03:00 [INF] Now listening on: http://localhost:5202
+2025-07-16 22:19:25.052 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-16 22:19:25.119 +03:00 [INF] Hosting environment: Development
+2025-07-16 22:19:25.120 +03:00 [INF] Content root path: C:\Users\shira\Desktop\FlightSolution\FlightsApi
+2025-07-16 22:19:25.663 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5202/swagger/index.html - null null
+2025-07-16 22:19:26.314 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5202/swagger/index.html - 200 null text/html;charset=utf-8 650.6802ms
+2025-07-16 22:19:26.842 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5202/_vs/browserLink - null null
+2025-07-16 22:19:26.854 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5202/_framework/aspnetcore-browser-refresh.js - null null
+2025-07-16 22:19:26.882 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5202/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 27.9615ms
+2025-07-16 22:19:27.042 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5202/_vs/browserLink - 200 null text/javascript; charset=UTF-8 201.3408ms
+2025-07-16 22:19:28.121 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5202/swagger/v1/swagger.json - null null
+2025-07-16 22:19:28.155 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5202/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 34.5893ms
+2025-07-16 22:19:41.402 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5202/api/Flights - null null
+2025-07-16 22:19:41.428 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-07-16 22:19:41.442 +03:00 [INF] Executing endpoint 'FlightsApi.Controllers.FlightsController.GetAllFlights (FlightsApi)'
+2025-07-16 22:19:41.518 +03:00 [INF] Route matched with {action = "GetAllFlights", controller = "Flights"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllFlights() on controller FlightsApi.Controllers.FlightsController (FlightsApi).
+2025-07-16 22:19:41.996 +03:00 [INF] GetAllFlights
+2025-07-16 22:19:44.297 +03:00 [ERR] Failed executing DbCommand (26ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "f"."Id", "f"."CreatedAt", "f"."DepartureTime", "f"."Destination", "f"."FlightNumber", "f"."Gate"
+FROM "Flights" AS "f"
+2025-07-16 22:19:44.395 +03:00 [ERR] An exception occurred while iterating over the results of a query for context type 'FlightsDl.FlightDbContext'.
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: Flights'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Storage.NonRetryingExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: Flights'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Storage.NonRetryingExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+2025-07-16 22:28:11.837 +03:00 [INF] Now listening on: http://localhost:5202
+2025-07-16 22:28:12.297 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-16 22:28:12.299 +03:00 [INF] Hosting environment: Development
+2025-07-16 22:28:12.301 +03:00 [INF] Content root path: C:\Users\shira\Desktop\FlightSolution\FlightsApi
+2025-07-16 22:28:13.051 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5202/swagger/index.html - null null
+2025-07-16 22:28:13.589 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5202/swagger/index.html - 200 null text/html;charset=utf-8 543.9306ms
+2025-07-16 22:28:14.049 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5202/_framework/aspnetcore-browser-refresh.js - null null
+2025-07-16 22:28:14.049 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5202/_vs/browserLink - null null
+2025-07-16 22:28:14.063 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5202/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 13.0838ms
+2025-07-16 22:28:14.181 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5202/_vs/browserLink - 200 null text/javascript; charset=UTF-8 132.9174ms
+2025-07-16 22:28:15.331 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5202/swagger/v1/swagger.json - null null
+2025-07-16 22:28:15.359 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5202/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 27.5672ms
+2025-07-16 22:28:23.332 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5202/api/Flights - null null
+2025-07-16 22:28:23.353 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-07-16 22:28:23.363 +03:00 [INF] Executing endpoint 'FlightsApi.Controllers.FlightsController.GetAllFlights (FlightsApi)'
+2025-07-16 22:28:23.432 +03:00 [INF] Route matched with {action = "GetAllFlights", controller = "Flights"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllFlights() on controller FlightsApi.Controllers.FlightsController (FlightsApi).
+2025-07-16 22:28:23.960 +03:00 [INF] GetAllFlights
+2025-07-16 22:28:26.316 +03:00 [ERR] Failed executing DbCommand (35ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "f"."Id", "f"."CreatedAt", "f"."DepartureTime", "f"."Destination", "f"."FlightNumber", "f"."Gate"
+FROM "Flights" AS "f"
+2025-07-16 22:28:26.421 +03:00 [ERR] An exception occurred while iterating over the results of a query for context type 'FlightsDl.FlightDbContext'.
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: Flights'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Storage.NonRetryingExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: Flights'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Storage.NonRetryingExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+2025-07-16 22:40:00.922 +03:00 [ERR] SQLite Error 1: 'no such table: Flights'.
+2025-07-16 22:40:00.973 +03:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2025-07-16 22:40:00.981 +03:00 [INF] Executed action FlightsApi.Controllers.FlightsController.GetAllFlights (FlightsApi) in 697541.1872ms
+2025-07-16 22:40:00.983 +03:00 [INF] Executed endpoint 'FlightsApi.Controllers.FlightsController.GetAllFlights (FlightsApi)'
+2025-07-16 22:40:00.995 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5202/api/Flights - 500 null text/plain; charset=utf-8 697663.3219ms
+2025-07-16 22:40:05.423 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5202/api/Flights - null null
+2025-07-16 22:40:05.429 +03:00 [INF] Executing endpoint 'FlightsApi.Controllers.FlightsController.GetAllFlights (FlightsApi)'
+2025-07-16 22:40:05.430 +03:00 [INF] Route matched with {action = "GetAllFlights", controller = "Flights"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllFlights() on controller FlightsApi.Controllers.FlightsController (FlightsApi).
+2025-07-16 22:40:05.433 +03:00 [INF] GetAllFlights
+2025-07-16 22:40:59.574 +03:00 [ERR] Failed executing DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "f"."Id", "f"."CreatedAt", "f"."DepartureTime", "f"."Destination", "f"."FlightNumber", "f"."Gate"
+FROM "Flights" AS "f"
+2025-07-16 22:40:59.579 +03:00 [ERR] An exception occurred while iterating over the results of a query for context type 'FlightsDl.FlightDbContext'.
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: Flights'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Storage.NonRetryingExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: Flights'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Storage.NonRetryingExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+2025-07-16 22:42:45.285 +03:00 [ERR] SQLite Error 1: 'no such table: Flights'.
+2025-07-16 22:42:45.303 +03:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2025-07-16 22:42:45.305 +03:00 [INF] Executed action FlightsApi.Controllers.FlightsController.GetAllFlights (FlightsApi) in 159873.3924ms
+2025-07-16 22:42:45.307 +03:00 [INF] Executed endpoint 'FlightsApi.Controllers.FlightsController.GetAllFlights (FlightsApi)'
+2025-07-16 22:42:45.311 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5202/api/Flights - 500 null text/plain; charset=utf-8 159887.6033ms
+2025-07-16 22:42:52.906 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5202/api/Flights - null null
+2025-07-16 22:42:52.922 +03:00 [INF] Executing endpoint 'FlightsApi.Controllers.FlightsController.GetAllFlights (FlightsApi)'
+2025-07-16 22:42:52.924 +03:00 [INF] Route matched with {action = "GetAllFlights", controller = "Flights"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllFlights() on controller FlightsApi.Controllers.FlightsController (FlightsApi).
+2025-07-16 22:42:52.940 +03:00 [INF] GetAllFlights
+2025-07-16 22:44:50.558 +03:00 [ERR] Failed executing DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "f"."Id", "f"."CreatedAt", "f"."DepartureTime", "f"."Destination", "f"."FlightNumber", "f"."Gate"
+FROM "Flights" AS "f"
+2025-07-16 22:44:50.567 +03:00 [ERR] An exception occurred while iterating over the results of a query for context type 'FlightsDl.FlightDbContext'.
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: Flights'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Storage.NonRetryingExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: Flights'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Storage.NonRetryingExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+2025-07-16 22:48:26.811 +03:00 [ERR] SQLite Error 1: 'no such table: Flights'.
+2025-07-16 22:48:26.888 +03:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2025-07-16 22:48:26.903 +03:00 [INF] Executed action FlightsApi.Controllers.FlightsController.GetAllFlights (FlightsApi) in 333972.4396ms
+2025-07-16 22:48:26.908 +03:00 [INF] Executed endpoint 'FlightsApi.Controllers.FlightsController.GetAllFlights (FlightsApi)'
+2025-07-16 22:48:26.913 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5202/api/Flights - 500 null text/plain; charset=utf-8 334006.763ms
+2025-07-16 22:48:29.310 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5202/api/Flights - null null
+2025-07-16 22:48:29.314 +03:00 [INF] Executing endpoint 'FlightsApi.Controllers.FlightsController.GetAllFlights (FlightsApi)'
+2025-07-16 22:48:29.316 +03:00 [INF] Route matched with {action = "GetAllFlights", controller = "Flights"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllFlights() on controller FlightsApi.Controllers.FlightsController (FlightsApi).
+2025-07-16 22:48:29.321 +03:00 [INF] GetAllFlights
+2025-07-16 22:51:09.433 +03:00 [ERR] Failed executing DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "f"."Id", "f"."CreatedAt", "f"."DepartureTime", "f"."Destination", "f"."FlightNumber", "f"."Gate"
+FROM "Flights" AS "f"
+2025-07-16 22:51:09.438 +03:00 [ERR] An exception occurred while iterating over the results of a query for context type 'FlightsDl.FlightDbContext'.
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: Flights'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Storage.NonRetryingExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: Flights'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Storage.NonRetryingExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+2025-07-16 22:51:14.616 +03:00 [ERR] SQLite Error 1: 'no such table: Flights'.
+2025-07-16 22:51:14.620 +03:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2025-07-16 22:51:14.631 +03:00 [INF] Executed action FlightsApi.Controllers.FlightsController.GetAllFlights (FlightsApi) in 165309.9818ms
+2025-07-16 22:51:14.633 +03:00 [INF] Executed endpoint 'FlightsApi.Controllers.FlightsController.GetAllFlights (FlightsApi)'
+2025-07-16 22:51:14.636 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5202/api/Flights - 500 null text/plain; charset=utf-8 165325.7025ms
+2025-07-16 22:51:18.146 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5202/api/Flights - null null
+2025-07-16 22:51:18.150 +03:00 [INF] Executing endpoint 'FlightsApi.Controllers.FlightsController.GetAllFlights (FlightsApi)'
+2025-07-16 22:51:18.159 +03:00 [INF] Route matched with {action = "GetAllFlights", controller = "Flights"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllFlights() on controller FlightsApi.Controllers.FlightsController (FlightsApi).
+2025-07-16 22:51:18.163 +03:00 [INF] GetAllFlights
+2025-07-16 22:54:28.561 +03:00 [INF] Now listening on: http://localhost:5202
+2025-07-16 22:54:28.833 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-16 22:54:28.835 +03:00 [INF] Hosting environment: Development
+2025-07-16 22:54:28.836 +03:00 [INF] Content root path: C:\Users\shira\Desktop\FlightSolution\FlightsApi
+2025-07-16 22:54:29.730 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5202/swagger/index.html - null null
+2025-07-16 22:54:30.086 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5202/swagger/index.html - 200 null text/html;charset=utf-8 362.8662ms
+2025-07-16 22:54:30.174 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5202/_framework/aspnetcore-browser-refresh.js - null null
+2025-07-16 22:54:30.194 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5202/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 30.0712ms
+2025-07-16 22:54:30.474 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5202/_vs/browserLink - null null
+2025-07-16 22:54:30.871 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5202/_vs/browserLink - 200 null text/javascript; charset=UTF-8 398.3574ms
+2025-07-16 22:54:32.311 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5202/swagger/v1/swagger.json - null null
+2025-07-16 22:54:32.350 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5202/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 38.2877ms
+2025-07-16 22:54:40.482 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5202/api/Flights - null null
+2025-07-16 22:54:40.502 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-07-16 22:54:40.519 +03:00 [INF] Executing endpoint 'FlightsApi.Controllers.FlightsController.GetAllFlights (FlightsApi)'
+2025-07-16 22:54:40.602 +03:00 [INF] Route matched with {action = "GetAllFlights", controller = "Flights"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllFlights() on controller FlightsApi.Controllers.FlightsController (FlightsApi).
+2025-07-16 22:54:41.100 +03:00 [INF] GetAllFlights
+2025-07-16 22:55:01.687 +03:00 [INF] Executed DbCommand (27ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "f"."Id", "f"."CreatedAt", "f"."DepartureTime", "f"."Destination", "f"."FlightNumber", "f"."Gate"
+FROM "Flights" AS "f"
+2025-07-16 22:55:01.708 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FlightsEntity.FlightEntity, FlightsEntity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-07-16 22:55:01.730 +03:00 [INF] Executed action FlightsApi.Controllers.FlightsController.GetAllFlights (FlightsApi) in 21117.4594ms
+2025-07-16 22:55:01.733 +03:00 [INF] Executed endpoint 'FlightsApi.Controllers.FlightsController.GetAllFlights (FlightsApi)'
+2025-07-16 22:55:01.745 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5202/api/Flights - 200 null application/json; charset=utf-8 21263.3519ms
+2025-07-16 22:56:02.478 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5202/api/Flights - application/json 174
+2025-07-16 22:56:02.485 +03:00 [INF] Executing endpoint 'FlightsApi.Controllers.FlightsController.ScudeleNewFlight (FlightsApi)'
+2025-07-16 22:56:02.505 +03:00 [INF] Route matched with {action = "ScudeleNewFlight", controller = "Flights"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ScudeleNewFlight(FlightsEntity.FlightEntity) on controller FlightsApi.Controllers.FlightsController (FlightsApi).
+2025-07-16 22:56:03.199 +03:00 [INF] Executed DbCommand (13ms) [Parameters=[@p0='?' (DbType = DateTime), @p1='?' (DbType = DateTime), @p2='?' (Size = 6), @p3='?' (Size = 5), @p4='?' (Size = 3)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Flights" ("CreatedAt", "DepartureTime", "Destination", "FlightNumber", "Gate")
+VALUES (@p0, @p1, @p2, @p3, @p4)
+RETURNING "Id";
+2025-07-16 22:56:03.284 +03:00 [INF] ScudeleNewFlight
+2025-07-16 22:56:03.287 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2025-07-16 22:56:03.292 +03:00 [INF] Executed action FlightsApi.Controllers.FlightsController.ScudeleNewFlight (FlightsApi) in 780.1895ms
+2025-07-16 22:56:03.296 +03:00 [INF] Executed endpoint 'FlightsApi.Controllers.FlightsController.ScudeleNewFlight (FlightsApi)'
+2025-07-16 22:56:03.300 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5202/api/Flights - 200 null text/plain; charset=utf-8 821.751ms
+2025-07-16 22:56:52.898 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5202/api/Flights - null null
+2025-07-16 22:56:52.913 +03:00 [INF] Executing endpoint 'FlightsApi.Controllers.FlightsController.GetAllFlights (FlightsApi)'
+2025-07-16 22:56:52.916 +03:00 [INF] Route matched with {action = "GetAllFlights", controller = "Flights"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllFlights() on controller FlightsApi.Controllers.FlightsController (FlightsApi).
+2025-07-16 22:56:52.933 +03:00 [INF] GetAllFlights
+2025-07-16 22:56:56.659 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "f"."Id", "f"."CreatedAt", "f"."DepartureTime", "f"."Destination", "f"."FlightNumber", "f"."Gate"
+FROM "Flights" AS "f"
+2025-07-16 22:56:56.721 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FlightsEntity.FlightEntity, FlightsEntity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-07-16 22:56:56.753 +03:00 [INF] Executed action FlightsApi.Controllers.FlightsController.GetAllFlights (FlightsApi) in 3830.7835ms
+2025-07-16 22:56:56.761 +03:00 [INF] Executed endpoint 'FlightsApi.Controllers.FlightsController.GetAllFlights (FlightsApi)'
+2025-07-16 22:56:56.772 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5202/api/Flights - 200 null application/json; charset=utf-8 3873.5463ms
+2025-07-16 23:53:14.268 +03:00 [INF] Now listening on: http://localhost:5202
+2025-07-16 23:53:14.598 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-16 23:53:14.600 +03:00 [INF] Hosting environment: Development
+2025-07-16 23:53:14.601 +03:00 [INF] Content root path: C:\Users\shira\Desktop\FlightSolution\FlightsApi
+2025-07-16 23:53:15.641 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5202/swagger/index.html - null null
+2025-07-16 23:53:16.104 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5202/swagger/index.html - 200 null text/html;charset=utf-8 469.1861ms
+2025-07-16 23:53:16.191 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5202/_framework/aspnetcore-browser-refresh.js - null null
+2025-07-16 23:53:16.216 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5202/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 25.2162ms
+2025-07-16 23:53:16.441 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5202/_vs/browserLink - null null
+2025-07-16 23:53:16.525 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5202/_vs/browserLink - 200 null text/javascript; charset=UTF-8 84.494ms
+2025-07-16 23:53:17.997 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5202/swagger/v1/swagger.json - null null
+2025-07-16 23:53:18.032 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5202/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 34.813ms
+2025-07-16 23:53:57.030 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5202/api/Flights - application/json 172
+2025-07-16 23:53:57.043 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-07-16 23:53:57.051 +03:00 [INF] Executing endpoint 'FlightsApi.Controllers.FlightsController.ScudeleNewFlightAsync (FlightsApi)'
+2025-07-16 23:53:57.098 +03:00 [INF] Route matched with {action = "ScudeleNewFlight", controller = "Flights"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ScudeleNewFlightAsync(FlightsEntity.FlightEntity) on controller FlightsApi.Controllers.FlightsController (FlightsApi).
+2025-07-16 23:53:58.218 +03:00 [INF] Executed DbCommand (17ms) [Parameters=[@p0='?' (DbType = DateTime), @p1='?' (DbType = DateTime), @p2='?' (Size = 6), @p3='?' (Size = 4), @p4='?' (Size = 2)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Flights" ("CreatedAt", "DepartureTime", "Destination", "FlightNumber", "Gate")
+VALUES (@p0, @p1, @p2, @p3, @p4)
+RETURNING "Id";
+2025-07-16 23:53:58.255 +03:00 [INF] ScudeleNewFlightAsync
+2025-07-16 23:53:58.263 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2025-07-16 23:53:58.271 +03:00 [INF] Executed action FlightsApi.Controllers.FlightsController.ScudeleNewFlightAsync (FlightsApi) in 1166.1105ms
+2025-07-16 23:53:58.276 +03:00 [INF] Executed endpoint 'FlightsApi.Controllers.FlightsController.ScudeleNewFlightAsync (FlightsApi)'
+2025-07-16 23:53:58.285 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5202/api/Flights - 200 null text/plain; charset=utf-8 1254.9583ms
+2025-07-16 23:54:17.685 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5202/api/Flights - null null
+2025-07-16 23:54:17.690 +03:00 [INF] Executing endpoint 'FlightsApi.Controllers.FlightsController.GetAllFlights (FlightsApi)'
+2025-07-16 23:54:17.705 +03:00 [INF] Route matched with {action = "GetAllFlights", controller = "Flights"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllFlights() on controller FlightsApi.Controllers.FlightsController (FlightsApi).
+2025-07-16 23:54:17.713 +03:00 [INF] GetAllFlights
+2025-07-16 23:54:21.486 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "f"."Id", "f"."CreatedAt", "f"."DepartureTime", "f"."Destination", "f"."FlightNumber", "f"."Gate"
+FROM "Flights" AS "f"
+2025-07-16 23:54:21.501 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FlightsEntity.FlightEntity, FlightsEntity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-07-16 23:54:21.517 +03:00 [INF] Executed action FlightsApi.Controllers.FlightsController.GetAllFlights (FlightsApi) in 3806.1738ms
+2025-07-16 23:54:21.519 +03:00 [INF] Executed endpoint 'FlightsApi.Controllers.FlightsController.GetAllFlights (FlightsApi)'
+2025-07-16 23:54:21.523 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5202/api/Flights - 200 null application/json; charset=utf-8 3837.8526ms

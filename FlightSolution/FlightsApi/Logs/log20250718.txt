@@ -1,0 +1,1417 @@
+2025-07-18 00:03:22.788 +03:00 [INF] User profile is available. Using 'C:\Users\shira\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-07-18 00:03:23.512 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/swagger/index.html - null null
+2025-07-18 00:03:23.767 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-18 00:03:23.768 +03:00 [INF] Hosting environment: Development
+2025-07-18 00:03:23.768 +03:00 [INF] Content root path: C:\Users\shira\Desktop\FlightsBoardIsracraProject\FlightSolution\FlightsApi
+2025-07-18 00:03:24.207 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/swagger/index.html - 200 null text/html;charset=utf-8 698.1131ms
+2025-07-18 00:03:24.777 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/_framework/aspnetcore-browser-refresh.js - null null
+2025-07-18 00:03:24.777 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/_vs/browserLink - null null
+2025-07-18 00:03:24.792 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 14.2133ms
+2025-07-18 00:03:24.910 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/_vs/browserLink - 200 null text/javascript; charset=UTF-8 135.2146ms
+2025-07-18 00:03:27.825 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/swagger/v1/swagger.json - null null
+2025-07-18 00:03:27.921 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 95.9964ms
+2025-07-18 00:04:27.536 +03:00 [INF] Request starting HTTP/2 POST https://localhost:44375/api/Flights - application/json 182
+2025-07-18 00:04:27.564 +03:00 [INF] CORS policy execution successful.
+2025-07-18 00:04:27.581 +03:00 [INF] Executing endpoint 'FlightsApi.Controllers.FlightsController.ScheduleNewFlightAsync (FlightsApi)'
+2025-07-18 00:04:27.698 +03:00 [INF] Route matched with {action = "ScheduleNewFlight", controller = "Flights"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ScheduleNewFlightAsync(CreateFlightRequestDto) on controller FlightsApi.Controllers.FlightsController (FlightsApi).
+2025-07-18 00:04:28.387 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-07-18 00:04:28.487 +03:00 [INF] Executed action FlightsApi.Controllers.FlightsController.ScheduleNewFlightAsync (FlightsApi) in 780.5136ms
+2025-07-18 00:04:28.488 +03:00 [INF] Executed endpoint 'FlightsApi.Controllers.FlightsController.ScheduleNewFlightAsync (FlightsApi)'
+2025-07-18 00:04:28.493 +03:00 [INF] Request finished HTTP/2 POST https://localhost:44375/api/Flights - 400 null application/problem+json; charset=utf-8 957.1453ms
+2025-07-18 00:04:53.086 +03:00 [INF] Request starting HTTP/2 POST https://localhost:44375/api/Flights - application/json 174
+2025-07-18 00:04:53.094 +03:00 [INF] CORS policy execution successful.
+2025-07-18 00:04:53.096 +03:00 [INF] Executing endpoint 'FlightsApi.Controllers.FlightsController.ScheduleNewFlightAsync (FlightsApi)'
+2025-07-18 00:04:53.098 +03:00 [INF] Route matched with {action = "ScheduleNewFlight", controller = "Flights"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ScheduleNewFlightAsync(CreateFlightRequestDto) on controller FlightsApi.Controllers.FlightsController (FlightsApi).
+2025-07-18 00:04:53.123 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-07-18 00:04:53.125 +03:00 [INF] Executed action FlightsApi.Controllers.FlightsController.ScheduleNewFlightAsync (FlightsApi) in 26.971ms
+2025-07-18 00:04:53.126 +03:00 [INF] Executed endpoint 'FlightsApi.Controllers.FlightsController.ScheduleNewFlightAsync (FlightsApi)'
+2025-07-18 00:04:53.126 +03:00 [INF] Request finished HTTP/2 POST https://localhost:44375/api/Flights - 400 null application/problem+json; charset=utf-8 40.0411ms
+2025-07-18 00:05:42.299 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/swagger/index.html - null null
+2025-07-18 00:05:42.367 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/swagger/index.html - 200 null text/html;charset=utf-8 68.5522ms
+2025-07-18 00:05:42.458 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/_vs/browserLink - null null
+2025-07-18 00:05:42.465 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/_framework/aspnetcore-browser-refresh.js - null null
+2025-07-18 00:05:42.467 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 1.8233ms
+2025-07-18 00:05:42.502 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/_vs/browserLink - 200 null text/javascript; charset=UTF-8 43.4228ms
+2025-07-18 00:05:44.352 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/swagger/v1/swagger.json - null null
+2025-07-18 00:05:44.364 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 11.799ms
+2025-07-18 00:05:44.380 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/swagger/favicon-32x32.png - null null
+2025-07-18 00:05:44.393 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-07-18 00:05:44.393 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/swagger/favicon-32x32.png - 200 628 image/png 13.3136ms
+2025-07-18 00:05:58.005 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/swagger/index.html - null null
+2025-07-18 00:05:58.017 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/swagger/index.html - 200 null text/html;charset=utf-8 11.9279ms
+2025-07-18 00:05:58.112 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/_vs/browserLink - null null
+2025-07-18 00:05:58.127 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/_framework/aspnetcore-browser-refresh.js - null null
+2025-07-18 00:05:58.130 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 2.0591ms
+2025-07-18 00:05:58.130 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/_vs/browserLink - 200 null text/javascript; charset=UTF-8 18.2791ms
+2025-07-18 00:05:59.251 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/swagger/v1/swagger.json - null null
+2025-07-18 00:05:59.265 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 13.4744ms
+2025-07-18 00:06:33.536 +03:00 [INF] Request starting HTTP/2 POST https://localhost:44375/api/Flights - application/json 157
+2025-07-18 00:06:33.538 +03:00 [INF] CORS policy execution successful.
+2025-07-18 00:06:33.538 +03:00 [INF] Executing endpoint 'FlightsApi.Controllers.FlightsController.ScheduleNewFlightAsync (FlightsApi)'
+2025-07-18 00:06:33.549 +03:00 [INF] Route matched with {action = "ScheduleNewFlight", controller = "Flights"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ScheduleNewFlightAsync(CreateFlightRequestDto) on controller FlightsApi.Controllers.FlightsController (FlightsApi).
+2025-07-18 00:06:33.908 +03:00 [INF] Executed action FlightsApi.Controllers.FlightsController.ScheduleNewFlightAsync (FlightsApi) in 358.6994ms
+2025-07-18 00:06:33.910 +03:00 [INF] Executed endpoint 'FlightsApi.Controllers.FlightsController.ScheduleNewFlightAsync (FlightsApi)'
+2025-07-18 00:06:33.912 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.MissingMethodException: Attempted to invoke a deleted method implementation. This can happen when a method is deleted or its name or signature is changed while the application is running.
+   at CreateFlightRequestDto.get_Status()
+   at Microsoft.Extensions.Internal.PropertyHelper.CallNullSafePropertyGetter[TDeclaringType,TValue](Func`2 getter, Object target)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationEntry.get_Model()
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitChildren(IValidationStrategy strategy)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitComplexType(IValidationStrategy defaultStrategy)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.VisitImplementation(ModelMetadata& metadata, String& key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Validation.ValidationVisitor.Visit(ModelMetadata metadata, String key, Object model)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ObjectModelValidator.Validate(ActionContext actionContext, ValidationStateDictionary validationState, String prefix, Object model, ModelMetadata metadata, Object container)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.EnforceBindRequiredAndValidate(ObjectModelValidator baseObjectValidator, ActionContext actionContext, ParameterDescriptor parameter, ModelMetadata metadata, ModelBindingContext modelBindingContext, ModelBindingResult modelBindingResult, Object container)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.BindModelAsync(ActionContext actionContext, IModelBinder modelBinder, IValueProvider valueProvider, ParameterDescriptor parameter, ModelMetadata metadata, Object value, Object container)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerBinderDelegateProvider.<>c__DisplayClass0_0.<<CreateBinderDelegate>g__Bind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-07-18 00:06:34.006 +03:00 [INF] Request finished HTTP/2 POST https://localhost:44375/api/Flights - 500 null text/plain; charset=utf-8 470.4004ms
+2025-07-18 00:07:07.418 +03:00 [INF] User profile is available. Using 'C:\Users\shira\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-07-18 00:07:07.819 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/swagger/index.html - null null
+2025-07-18 00:07:07.998 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-18 00:07:07.999 +03:00 [INF] Hosting environment: Development
+2025-07-18 00:07:07.999 +03:00 [INF] Content root path: C:\Users\shira\Desktop\FlightsBoardIsracraProject\FlightSolution\FlightsApi
+2025-07-18 00:07:08.329 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/swagger/index.html - 200 null text/html;charset=utf-8 501.2413ms
+2025-07-18 00:07:08.358 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/_framework/aspnetcore-browser-refresh.js - null null
+2025-07-18 00:07:08.376 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 9.2261ms
+2025-07-18 00:07:08.627 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/_vs/browserLink - null null
+2025-07-18 00:07:08.710 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/_vs/browserLink - 200 null text/javascript; charset=UTF-8 83.1887ms
+2025-07-18 00:07:09.977 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/swagger/v1/swagger.json - null null
+2025-07-18 00:07:10.017 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 39.6441ms
+2025-07-18 00:07:34.494 +03:00 [INF] Request starting HTTP/2 POST https://localhost:44375/api/Flights - application/json 156
+2025-07-18 00:07:34.518 +03:00 [INF] CORS policy execution successful.
+2025-07-18 00:07:34.539 +03:00 [INF] Executing endpoint 'FlightsApi.Controllers.FlightsController.ScheduleNewFlightAsync (FlightsApi)'
+2025-07-18 00:07:34.648 +03:00 [INF] Route matched with {action = "ScheduleNewFlight", controller = "Flights"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ScheduleNewFlightAsync(CreateFlightRequestDto) on controller FlightsApi.Controllers.FlightsController (FlightsApi).
+2025-07-18 00:07:35.440 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-07-18 00:07:35.539 +03:00 [INF] Executed action FlightsApi.Controllers.FlightsController.ScheduleNewFlightAsync (FlightsApi) in 879.7396ms
+2025-07-18 00:07:35.540 +03:00 [INF] Executed endpoint 'FlightsApi.Controllers.FlightsController.ScheduleNewFlightAsync (FlightsApi)'
+2025-07-18 00:07:35.544 +03:00 [INF] Request finished HTTP/2 POST https://localhost:44375/api/Flights - 400 null application/problem+json; charset=utf-8 1049.3827ms
+2025-07-18 00:08:23.672 +03:00 [INF] Request starting HTTP/2 POST https://localhost:44375/api/Flights - application/json 169
+2025-07-18 00:08:23.678 +03:00 [INF] CORS policy execution successful.
+2025-07-18 00:08:23.679 +03:00 [INF] Executing endpoint 'FlightsApi.Controllers.FlightsController.ScheduleNewFlightAsync (FlightsApi)'
+2025-07-18 00:08:23.680 +03:00 [INF] Route matched with {action = "ScheduleNewFlight", controller = "Flights"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ScheduleNewFlightAsync(CreateFlightRequestDto) on controller FlightsApi.Controllers.FlightsController (FlightsApi).
+2025-07-18 00:08:34.577 +03:00 [INF] Executed DbCommand (42ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "f"."Id", "f"."ArrivalTime", "f"."DepartureTime", "f"."Destination", "f"."FlightNumber", "f"."Gate", "f"."Origin", "f"."Status"
+FROM "Flights" AS "f"
+2025-07-18 00:08:34.838 +03:00 [ERR] Failed executing DbCommand (7ms) [Parameters=[@p0='?' (DbType = DateTime), @p1='?' (DbType = DateTime), @p2='?' (Size = 3), @p3='?' (Size = 5), @p4='?', @p5='?' (Size = 3), @p6='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Flights" ("ArrivalTime", "DepartureTime", "Destination", "FlightNumber", "Gate", "Origin", "Status")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6)
+RETURNING "Id";
+2025-07-18 00:08:34.888 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'FlightsDl.FlightDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'NOT NULL constraint failed: Flights.Gate'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__112_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.Storage.NonRetryingExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'NOT NULL constraint failed: Flights.Gate'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__112_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.Storage.NonRetryingExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+2025-07-18 00:08:34.944 +03:00 [ERR] An error occurred while saving the entity changes. See the inner exception for details.
+2025-07-18 00:08:34.945 +03:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2025-07-18 00:08:34.946 +03:00 [INF] Executed action FlightsApi.Controllers.FlightsController.ScheduleNewFlightAsync (FlightsApi) in 11265.0144ms
+2025-07-18 00:08:34.946 +03:00 [INF] Executed endpoint 'FlightsApi.Controllers.FlightsController.ScheduleNewFlightAsync (FlightsApi)'
+2025-07-18 00:08:34.954 +03:00 [INF] Request finished HTTP/2 POST https://localhost:44375/api/Flights - 500 null text/plain; charset=utf-8 11281.9723ms
+2025-07-18 00:10:16.430 +03:00 [INF] Request starting HTTP/2 POST https://localhost:44375/api/Flights - application/json 169
+2025-07-18 00:10:16.433 +03:00 [INF] CORS policy execution successful.
+2025-07-18 00:10:16.434 +03:00 [INF] Executing endpoint 'FlightsApi.Controllers.FlightsController.ScheduleNewFlightAsync (FlightsApi)'
+2025-07-18 00:10:16.434 +03:00 [INF] Route matched with {action = "ScheduleNewFlight", controller = "Flights"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ScheduleNewFlightAsync(CreateFlightRequestDto) on controller FlightsApi.Controllers.FlightsController (FlightsApi).
+2025-07-18 00:10:22.879 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "f"."Id", "f"."ArrivalTime", "f"."DepartureTime", "f"."Destination", "f"."FlightNumber", "f"."Gate", "f"."Origin", "f"."Status"
+FROM "Flights" AS "f"
+2025-07-18 00:11:10.014 +03:00 [ERR] Failed executing DbCommand (1ms) [Parameters=[@p0='?' (DbType = DateTime), @p1='?' (DbType = DateTime), @p2='?' (Size = 3), @p3='?' (Size = 5), @p4='?', @p5='?' (Size = 3), @p6='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Flights" ("ArrivalTime", "DepartureTime", "Destination", "FlightNumber", "Gate", "Origin", "Status")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6)
+RETURNING "Id";
+2025-07-18 00:11:10.016 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'FlightsDl.FlightDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'NOT NULL constraint failed: Flights.Gate'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__112_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.Storage.NonRetryingExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'NOT NULL constraint failed: Flights.Gate'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__112_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.Storage.NonRetryingExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+2025-07-18 00:11:10.053 +03:00 [ERR] An error occurred while saving the entity changes. See the inner exception for details.
+2025-07-18 00:11:10.054 +03:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2025-07-18 00:11:10.055 +03:00 [INF] Executed action FlightsApi.Controllers.FlightsController.ScheduleNewFlightAsync (FlightsApi) in 53620.101ms
+2025-07-18 00:11:10.055 +03:00 [INF] Executed endpoint 'FlightsApi.Controllers.FlightsController.ScheduleNewFlightAsync (FlightsApi)'
+2025-07-18 00:11:10.055 +03:00 [INF] Request finished HTTP/2 POST https://localhost:44375/api/Flights - 500 null text/plain; charset=utf-8 53625.0318ms
+2025-07-18 00:11:58.479 +03:00 [INF] Request starting HTTP/2 POST https://localhost:44375/api/Flights - application/json 169
+2025-07-18 00:11:58.480 +03:00 [INF] CORS policy execution successful.
+2025-07-18 00:11:58.480 +03:00 [INF] Executing endpoint 'FlightsApi.Controllers.FlightsController.ScheduleNewFlightAsync (FlightsApi)'
+2025-07-18 00:11:58.480 +03:00 [INF] Route matched with {action = "ScheduleNewFlight", controller = "Flights"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ScheduleNewFlightAsync(CreateFlightRequestDto) on controller FlightsApi.Controllers.FlightsController (FlightsApi).
+2025-07-18 00:12:03.535 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "f"."Id", "f"."ArrivalTime", "f"."DepartureTime", "f"."Destination", "f"."FlightNumber", "f"."Gate", "f"."Origin", "f"."Status"
+FROM "Flights" AS "f"
+2025-07-18 00:12:05.822 +03:00 [ERR] Failed executing DbCommand (2ms) [Parameters=[@p0='?' (DbType = DateTime), @p1='?' (DbType = DateTime), @p2='?' (Size = 3), @p3='?' (Size = 5), @p4='?', @p5='?' (Size = 3), @p6='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Flights" ("ArrivalTime", "DepartureTime", "Destination", "FlightNumber", "Gate", "Origin", "Status")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6)
+RETURNING "Id";
+2025-07-18 00:12:05.825 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'FlightsDl.FlightDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'NOT NULL constraint failed: Flights.Gate'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__112_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.Storage.NonRetryingExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'NOT NULL constraint failed: Flights.Gate'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__112_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.Storage.NonRetryingExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+2025-07-18 00:13:06.385 +03:00 [INF] User profile is available. Using 'C:\Users\shira\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-07-18 00:13:06.763 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/swagger/index.html - null null
+2025-07-18 00:13:07.432 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-18 00:13:07.433 +03:00 [INF] Hosting environment: Development
+2025-07-18 00:13:07.434 +03:00 [INF] Content root path: C:\Users\shira\Desktop\FlightsBoardIsracraProject\FlightSolution\FlightsApi
+2025-07-18 00:13:07.434 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/swagger/index.html - 200 null text/html;charset=utf-8 644.9471ms
+2025-07-18 00:13:07.449 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/_framework/aspnetcore-browser-refresh.js - null null
+2025-07-18 00:13:07.497 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 41.5984ms
+2025-07-18 00:13:07.729 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/_vs/browserLink - null null
+2025-07-18 00:13:07.820 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/_vs/browserLink - 200 null text/javascript; charset=UTF-8 91.0667ms
+2025-07-18 00:13:09.413 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/swagger/v1/swagger.json - null null
+2025-07-18 00:13:09.496 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 82.5171ms
+2025-07-18 00:13:29.862 +03:00 [INF] Request starting HTTP/2 POST https://localhost:44375/api/Flights - application/json 171
+2025-07-18 00:13:29.886 +03:00 [INF] CORS policy execution successful.
+2025-07-18 00:13:29.901 +03:00 [INF] Executing endpoint 'FlightsApi.Controllers.FlightsController.ScheduleNewFlightAsync (FlightsApi)'
+2025-07-18 00:13:29.991 +03:00 [INF] Route matched with {action = "ScheduleNewFlight", controller = "Flights"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ScheduleNewFlightAsync(CreateFlightRequestDto) on controller FlightsApi.Controllers.FlightsController (FlightsApi).
+2025-07-18 00:13:40.743 +03:00 [INF] Executed DbCommand (22ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "f"."Id", "f"."ArrivalTime", "f"."DepartureTime", "f"."Destination", "f"."FlightNumber", "f"."Gate", "f"."Origin", "f"."Status"
+FROM "Flights" AS "f"
+2025-07-18 00:13:43.550 +03:00 [INF] Executed DbCommand (6ms) [Parameters=[@p0='?' (DbType = DateTime), @p1='?' (DbType = DateTime), @p2='?' (Size = 3), @p3='?' (Size = 5), @p4='?' (Size = 2), @p5='?' (Size = 3), @p6='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Flights" ("ArrivalTime", "DepartureTime", "Destination", "FlightNumber", "Gate", "Origin", "Status")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6)
+RETURNING "Id";
+2025-07-18 00:13:43.591 +03:00 [INF] ScheduleNewFlightAsync
+2025-07-18 00:13:43.601 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2025-07-18 00:13:43.608 +03:00 [INF] Executed action FlightsApi.Controllers.FlightsController.ScheduleNewFlightAsync (FlightsApi) in 13610.7175ms
+2025-07-18 00:13:43.608 +03:00 [INF] Executed endpoint 'FlightsApi.Controllers.FlightsController.ScheduleNewFlightAsync (FlightsApi)'
+2025-07-18 00:13:43.620 +03:00 [INF] Request finished HTTP/2 POST https://localhost:44375/api/Flights - 200 null text/plain; charset=utf-8 13758.2032ms
+2025-07-18 10:57:18.966 +03:00 [INF] User profile is available. Using 'C:\Users\shira\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-07-18 10:57:19.973 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/swagger/index.html - null null
+2025-07-18 10:57:20.361 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-18 10:57:20.362 +03:00 [INF] Hosting environment: Development
+2025-07-18 10:57:20.363 +03:00 [INF] Content root path: C:\Users\shira\Desktop\FlightsBoardIsracraProject\FlightSolution\FlightsApi
+2025-07-18 10:57:21.174 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/swagger/index.html - 200 null text/html;charset=utf-8 1203.3574ms
+2025-07-18 10:57:21.329 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/_framework/aspnetcore-browser-refresh.js - null null
+2025-07-18 10:57:21.390 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 25.8768ms
+2025-07-18 10:57:21.606 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/_vs/browserLink - null null
+2025-07-18 10:57:21.934 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/_vs/browserLink - 200 null text/javascript; charset=UTF-8 332.1744ms
+2025-07-18 10:57:23.375 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/swagger/v1/swagger.json - null null
+2025-07-18 10:57:23.514 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 138.74ms
+2025-07-18 12:06:11.321 +03:00 [INF] User profile is available. Using 'C:\Users\shira\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-07-18 12:06:11.943 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/swagger/index.html - null null
+2025-07-18 12:06:12.088 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-18 12:06:12.089 +03:00 [INF] Hosting environment: Development
+2025-07-18 12:06:12.089 +03:00 [INF] Content root path: C:\Users\shira\Desktop\FlightsBoardIsracraProject\FlightSolution\FlightsApi
+2025-07-18 12:06:12.446 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/swagger/index.html - 200 null text/html;charset=utf-8 505.4039ms
+2025-07-18 12:06:12.616 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/_framework/aspnetcore-browser-refresh.js - null null
+2025-07-18 12:06:12.681 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 46.1336ms
+2025-07-18 12:06:13.026 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/_vs/browserLink - null null
+2025-07-18 12:06:13.156 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/_vs/browserLink - 200 null text/javascript; charset=UTF-8 129.3542ms
+2025-07-18 12:06:14.491 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/swagger/v1/swagger.json - null null
+2025-07-18 12:06:14.542 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 51.4101ms
+2025-07-18 12:06:22.667 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/api/Flights - null null
+2025-07-18 12:06:22.677 +03:00 [INF] Executing endpoint 'FlightsApi.Controllers.FlightsController.GetAllFlights (FlightsApi)'
+2025-07-18 12:06:22.718 +03:00 [INF] Route matched with {action = "GetAllFlights", controller = "Flights"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllFlights() on controller FlightsApi.Controllers.FlightsController (FlightsApi).
+2025-07-18 12:06:23.087 +03:00 [INF] GetAllFlights
+2025-07-18 12:06:29.170 +03:00 [ERR] Failed executing DbCommand (20ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "f"."Id", "f"."ArrivalTime", "f"."Departure", "f"."DepartureTime", "f"."Destination", "f"."FlightNumber", "f"."Gate", "f"."Status"
+FROM "Flights" AS "f"
+2025-07-18 12:06:29.250 +03:00 [ERR] An exception occurred while iterating over the results of a query for context type 'FlightsDl.FlightDbContext'.
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: Flights'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Storage.NonRetryingExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: Flights'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Storage.NonRetryingExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+2025-07-18 12:06:29.340 +03:00 [ERR] SQLite Error 1: 'no such table: Flights'.
+2025-07-18 12:06:29.351 +03:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2025-07-18 12:06:29.359 +03:00 [INF] Executed action FlightsApi.Controllers.FlightsController.GetAllFlights (FlightsApi) in 6634.7278ms
+2025-07-18 12:06:29.361 +03:00 [INF] Executed endpoint 'FlightsApi.Controllers.FlightsController.GetAllFlights (FlightsApi)'
+2025-07-18 12:06:29.381 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/api/Flights - 500 null text/plain; charset=utf-8 6713.0933ms
+2025-07-18 12:19:07.595 +03:00 [INF] User profile is available. Using 'C:\Users\shira\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-07-18 12:19:08.034 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/swagger/index.html - null null
+2025-07-18 12:19:08.144 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-18 12:19:08.145 +03:00 [INF] Hosting environment: Development
+2025-07-18 12:19:08.145 +03:00 [INF] Content root path: C:\Users\shira\Desktop\FlightsBoardIsracraProject\FlightSolution\FlightsApi
+2025-07-18 12:19:08.504 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/swagger/index.html - 200 null text/html;charset=utf-8 471.1099ms
+2025-07-18 12:19:08.691 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/_framework/aspnetcore-browser-refresh.js - null null
+2025-07-18 12:19:08.716 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 7.0156ms
+2025-07-18 12:19:08.873 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/_vs/browserLink - null null
+2025-07-18 12:19:08.958 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/_vs/browserLink - 200 null text/javascript; charset=UTF-8 85.0367ms
+2025-07-18 12:19:10.290 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/swagger/v1/swagger.json - null null
+2025-07-18 12:19:10.325 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 34.597ms
+2025-07-18 12:30:09.786 +03:00 [INF] User profile is available. Using 'C:\Users\shira\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-07-18 12:30:10.168 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/swagger/index.html - null null
+2025-07-18 12:30:10.299 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-18 12:30:10.300 +03:00 [INF] Hosting environment: Development
+2025-07-18 12:30:10.300 +03:00 [INF] Content root path: C:\Users\shira\Desktop\FlightsBoardIsracraProject\FlightSolution\FlightsApi
+2025-07-18 12:30:10.577 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/swagger/index.html - 200 null text/html;charset=utf-8 408.6618ms
+2025-07-18 12:30:10.736 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/_framework/aspnetcore-browser-refresh.js - null null
+2025-07-18 12:30:10.748 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 11.7252ms
+2025-07-18 12:30:10.878 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/_vs/browserLink - null null
+2025-07-18 12:30:10.977 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/_vs/browserLink - 200 null text/javascript; charset=UTF-8 98.1396ms
+2025-07-18 12:30:12.195 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/swagger/v1/swagger.json - null null
+2025-07-18 12:30:12.248 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 51.2718ms
+2025-07-18 12:30:19.846 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/api/Flights - null null
+2025-07-18 12:30:19.857 +03:00 [INF] Executing endpoint 'FlightsApi.Controllers.FlightsController.GetAllFlights (FlightsApi)'
+2025-07-18 12:30:19.890 +03:00 [INF] Route matched with {action = "GetAllFlights", controller = "Flights"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllFlights() on controller FlightsApi.Controllers.FlightsController (FlightsApi).
+2025-07-18 12:30:20.217 +03:00 [INF] GetAllFlights
+2025-07-18 12:30:24.493 +03:00 [INF] Executed DbCommand (28ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "f"."Id", "f"."ArrivalTime", "f"."Departure", "f"."DepartureTime", "f"."Destination", "f"."FlightNumber", "f"."Gate", "f"."Status"
+FROM "Flights" AS "f"
+2025-07-18 12:30:24.513 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FlightEntity, FlightsEntity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-07-18 12:30:24.540 +03:00 [INF] Executed action FlightsApi.Controllers.FlightsController.GetAllFlights (FlightsApi) in 4639.4202ms
+2025-07-18 12:30:24.540 +03:00 [INF] Executed endpoint 'FlightsApi.Controllers.FlightsController.GetAllFlights (FlightsApi)'
+2025-07-18 12:30:24.576 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/api/Flights - 200 null application/json; charset=utf-8 4730.586ms
+2025-07-18 12:31:19.256 +03:00 [INF] Request starting HTTP/2 POST https://localhost:44375/api/Flights - application/json 180
+2025-07-18 12:31:19.262 +03:00 [INF] CORS policy execution successful.
+2025-07-18 12:31:19.264 +03:00 [INF] Executing endpoint 'FlightsApi.Controllers.FlightsController.ScheduleNewFlightAsync (FlightsApi)'
+2025-07-18 12:31:19.281 +03:00 [INF] Route matched with {action = "ScheduleNewFlight", controller = "Flights"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ScheduleNewFlightAsync(CreateFlightRequestDto) on controller FlightsApi.Controllers.FlightsController (FlightsApi).
+2025-07-18 12:31:19.383 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "f"."Id", "f"."ArrivalTime", "f"."Departure", "f"."DepartureTime", "f"."Destination", "f"."FlightNumber", "f"."Gate", "f"."Status"
+FROM "Flights" AS "f"
+2025-07-18 12:31:19.570 +03:00 [ERR] Failed executing DbCommand (16ms) [Parameters=[@p0='?' (DbType = DateTime), @p1='?' (Size = 3), @p2='?' (DbType = DateTime), @p3='?' (Size = 5), @p4='?', @p5='?' (Size = 3), @p6='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Flights" ("ArrivalTime", "Departure", "DepartureTime", "Destination", "FlightNumber", "Gate", "Status")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6)
+RETURNING "Id";
+2025-07-18 12:31:19.615 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'FlightsDl.FlightDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'NOT NULL constraint failed: Flights.FlightNumber'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__112_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.Storage.NonRetryingExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'NOT NULL constraint failed: Flights.FlightNumber'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__112_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.Storage.NonRetryingExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+2025-07-18 12:31:32.671 +03:00 [ERR] An error occurred while saving the entity changes. See the inner exception for details.
+2025-07-18 12:31:32.680 +03:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2025-07-18 12:31:32.688 +03:00 [INF] Executed action FlightsApi.Controllers.FlightsController.ScheduleNewFlightAsync (FlightsApi) in 13406.7424ms
+2025-07-18 12:31:32.688 +03:00 [INF] Executed endpoint 'FlightsApi.Controllers.FlightsController.ScheduleNewFlightAsync (FlightsApi)'
+2025-07-18 12:31:32.689 +03:00 [INF] Request finished HTTP/2 POST https://localhost:44375/api/Flights - 500 null text/plain; charset=utf-8 13432.8849ms
+2025-07-18 12:34:02.813 +03:00 [INF] Request starting HTTP/2 POST https://localhost:44375/api/Flights - application/json 179
+2025-07-18 12:34:02.814 +03:00 [INF] CORS policy execution successful.
+2025-07-18 12:34:02.814 +03:00 [INF] Executing endpoint 'FlightsApi.Controllers.FlightsController.ScheduleNewFlightAsync (FlightsApi)'
+2025-07-18 12:34:02.815 +03:00 [INF] Route matched with {action = "ScheduleNewFlight", controller = "Flights"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ScheduleNewFlightAsync(CreateFlightRequestDto) on controller FlightsApi.Controllers.FlightsController (FlightsApi).
+2025-07-18 12:34:02.841 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "f"."Id", "f"."ArrivalTime", "f"."Departure", "f"."DepartureTime", "f"."Destination", "f"."FlightNumber", "f"."Gate", "f"."Status"
+FROM "Flights" AS "f"
+2025-07-18 12:34:02.845 +03:00 [ERR] Failed executing DbCommand (0ms) [Parameters=[@p0='?' (DbType = DateTime), @p1='?' (Size = 1), @p2='?' (DbType = DateTime), @p3='?' (Size = 5), @p4='?', @p5='?' (Size = 3), @p6='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Flights" ("ArrivalTime", "Departure", "DepartureTime", "Destination", "FlightNumber", "Gate", "Status")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6)
+RETURNING "Id";
+2025-07-18 12:34:02.846 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'FlightsDl.FlightDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'NOT NULL constraint failed: Flights.FlightNumber'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__112_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.Storage.NonRetryingExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'NOT NULL constraint failed: Flights.FlightNumber'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__112_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.Storage.NonRetryingExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+2025-07-18 12:35:47.855 +03:00 [ERR] An error occurred while saving the entity changes. See the inner exception for details.
+2025-07-18 12:35:47.861 +03:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2025-07-18 12:35:47.868 +03:00 [INF] Executed action FlightsApi.Controllers.FlightsController.ScheduleNewFlightAsync (FlightsApi) in 105052.8717ms
+2025-07-18 12:35:47.868 +03:00 [INF] Executed endpoint 'FlightsApi.Controllers.FlightsController.ScheduleNewFlightAsync (FlightsApi)'
+2025-07-18 12:35:47.868 +03:00 [INF] Request finished HTTP/2 POST https://localhost:44375/api/Flights - 500 null text/plain; charset=utf-8 105054.7792ms
+2025-07-18 12:40:55.262 +03:00 [INF] User profile is available. Using 'C:\Users\shira\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-07-18 12:40:55.522 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/swagger/index.html - null null
+2025-07-18 12:40:55.854 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-18 12:40:55.855 +03:00 [INF] Hosting environment: Development
+2025-07-18 12:40:55.855 +03:00 [INF] Content root path: C:\Users\shira\Desktop\FlightsBoardIsracraProject\FlightSolution\FlightsApi
+2025-07-18 12:40:55.888 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/swagger/index.html - 200 null text/html;charset=utf-8 366.4712ms
+2025-07-18 12:40:55.923 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/_framework/aspnetcore-browser-refresh.js - null null
+2025-07-18 12:40:55.941 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 9.6267ms
+2025-07-18 12:40:56.067 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/_vs/browserLink - null null
+2025-07-18 12:40:56.145 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/_vs/browserLink - 200 null text/javascript; charset=UTF-8 77.3888ms
+2025-07-18 12:40:57.039 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/swagger/v1/swagger.json - null null
+2025-07-18 12:40:57.086 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 46.508ms
+2025-07-18 12:42:23.216 +03:00 [INF] Request starting HTTP/2 POST https://localhost:44375/api/Flights - application/json 184
+2025-07-18 12:42:23.228 +03:00 [INF] CORS policy execution successful.
+2025-07-18 12:42:23.235 +03:00 [INF] Executing endpoint 'FlightsApi.Controllers.FlightsController.ScheduleNewFlightAsync (FlightsApi)'
+2025-07-18 12:42:23.277 +03:00 [INF] Route matched with {action = "ScheduleNewFlight", controller = "Flights"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ScheduleNewFlightAsync(CreateFlightRequestDto) on controller FlightsApi.Controllers.FlightsController (FlightsApi).
+2025-07-18 12:42:23.665 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-07-18 12:42:23.712 +03:00 [INF] Executed action FlightsApi.Controllers.FlightsController.ScheduleNewFlightAsync (FlightsApi) in 429.5271ms
+2025-07-18 12:42:23.712 +03:00 [INF] Executed endpoint 'FlightsApi.Controllers.FlightsController.ScheduleNewFlightAsync (FlightsApi)'
+2025-07-18 12:42:23.715 +03:00 [INF] Request finished HTTP/2 POST https://localhost:44375/api/Flights - 400 null application/problem+json; charset=utf-8 498.9389ms
+2025-07-18 12:43:34.761 +03:00 [INF] Request starting HTTP/2 POST https://localhost:44375/api/Flights - application/json 208
+2025-07-18 12:43:34.764 +03:00 [INF] CORS policy execution successful.
+2025-07-18 12:43:34.765 +03:00 [INF] Executing endpoint 'FlightsApi.Controllers.FlightsController.ScheduleNewFlightAsync (FlightsApi)'
+2025-07-18 12:43:34.771 +03:00 [INF] Route matched with {action = "ScheduleNewFlight", controller = "Flights"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ScheduleNewFlightAsync(CreateFlightRequestDto) on controller FlightsApi.Controllers.FlightsController (FlightsApi).
+2025-07-18 12:43:35.777 +03:00 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "f"."FlightNumber", "f"."ArrivalTime", "f"."Departure", "f"."DepartureTime", "f"."Destination", "f"."Gate", "f"."Status"
+FROM "Flights" AS "f"
+2025-07-18 12:43:35.952 +03:00 [ERR] Failed executing DbCommand (7ms) [Parameters=[@p0='?' (DbType = DateTime), @p1='?' (Size = 8), @p2='?' (DbType = DateTime), @p3='?' (Size = 6), @p4='?' (Size = 3), @p5='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Flights" ("ArrivalTime", "Departure", "DepartureTime", "Destination", "Gate", "Status")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+RETURNING "FlightNumber";
+2025-07-18 12:43:35.998 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'FlightsDl.FlightDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'NOT NULL constraint failed: Flights.FlightNumber'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__112_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.Storage.NonRetryingExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'NOT NULL constraint failed: Flights.FlightNumber'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__112_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.Storage.NonRetryingExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+2025-07-18 12:43:41.923 +03:00 [ERR] An error occurred while saving the entity changes. See the inner exception for details.
+2025-07-18 12:43:41.924 +03:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2025-07-18 12:43:41.925 +03:00 [INF] Executed action FlightsApi.Controllers.FlightsController.ScheduleNewFlightAsync (FlightsApi) in 7154.1ms
+2025-07-18 12:43:41.926 +03:00 [INF] Executed endpoint 'FlightsApi.Controllers.FlightsController.ScheduleNewFlightAsync (FlightsApi)'
+2025-07-18 12:43:41.937 +03:00 [INF] Request finished HTTP/2 POST https://localhost:44375/api/Flights - 500 null text/plain; charset=utf-8 7176.1853ms
+2025-07-18 13:00:00.021 +03:00 [INF] User profile is available. Using 'C:\Users\shira\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-07-18 13:00:00.419 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/swagger/index.html - null null
+2025-07-18 13:00:00.521 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-18 13:00:00.522 +03:00 [INF] Hosting environment: Development
+2025-07-18 13:00:00.522 +03:00 [INF] Content root path: C:\Users\shira\Desktop\FlightsBoardIsracraProject\FlightSolution\FlightsApi
+2025-07-18 13:00:00.809 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/swagger/index.html - 200 null text/html;charset=utf-8 390.4878ms
+2025-07-18 13:00:00.847 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/_framework/aspnetcore-browser-refresh.js - null null
+2025-07-18 13:00:00.864 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 8.5139ms
+2025-07-18 13:00:01.028 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/_vs/browserLink - null null
+2025-07-18 13:00:01.088 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/_vs/browserLink - 200 null text/javascript; charset=UTF-8 59.9312ms
+2025-07-18 13:00:02.053 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/swagger/v1/swagger.json - null null
+2025-07-18 13:00:02.130 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 77.0286ms
+2025-07-18 13:00:31.528 +03:00 [INF] Request starting HTTP/2 POST https://localhost:44375/api/Flights - application/json 189
+2025-07-18 13:00:31.551 +03:00 [INF] CORS policy execution successful.
+2025-07-18 13:00:31.556 +03:00 [INF] Executing endpoint 'FlightsApi.Controllers.FlightsController.ScheduleNewFlightAsync (FlightsApi)'
+2025-07-18 13:00:31.602 +03:00 [INF] Route matched with {action = "ScheduleNewFlight", controller = "Flights"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ScheduleNewFlightAsync(CreateFlightRequestDto) on controller FlightsApi.Controllers.FlightsController (FlightsApi).
+2025-07-18 13:00:31.970 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-07-18 13:00:32.010 +03:00 [INF] Executed action FlightsApi.Controllers.FlightsController.ScheduleNewFlightAsync (FlightsApi) in 403.71ms
+2025-07-18 13:00:32.010 +03:00 [INF] Executed endpoint 'FlightsApi.Controllers.FlightsController.ScheduleNewFlightAsync (FlightsApi)'
+2025-07-18 13:00:32.012 +03:00 [INF] Request finished HTTP/2 POST https://localhost:44375/api/Flights - 400 null application/problem+json; charset=utf-8 484.1887ms
+2025-07-18 16:33:04.520 +03:00 [INF] User profile is available. Using 'C:\Users\shira\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-07-18 16:33:04.925 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/swagger/index.html - null null
+2025-07-18 16:33:05.029 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-18 16:33:05.030 +03:00 [INF] Hosting environment: Development
+2025-07-18 16:33:05.030 +03:00 [INF] Content root path: C:\Users\shira\Desktop\FlightsBoardIsracraProject\FlightSolution\FlightsApi
+2025-07-18 16:33:05.319 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/swagger/index.html - 200 null text/html;charset=utf-8 389.1023ms
+2025-07-18 16:33:05.462 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/_framework/aspnetcore-browser-refresh.js - null null
+2025-07-18 16:33:05.479 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 13.9011ms
+2025-07-18 16:33:05.730 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/_vs/browserLink - null null
+2025-07-18 16:33:05.926 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/_vs/browserLink - 200 null text/javascript; charset=UTF-8 197.1179ms
+2025-07-18 16:33:06.922 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/swagger/v1/swagger.json - null null
+2025-07-18 16:33:06.974 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 51.7067ms
+2025-07-18 16:33:15.138 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/api/Flights - null null
+2025-07-18 16:33:15.151 +03:00 [INF] Executing endpoint 'FlightsApi.Controllers.FlightsController.GetAllFlights (FlightsApi)'
+2025-07-18 16:33:15.185 +03:00 [INF] Route matched with {action = "GetAllFlights", controller = "Flights"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllFlights() on controller FlightsApi.Controllers.FlightsController (FlightsApi).
+2025-07-18 16:33:15.527 +03:00 [INF] GetAllFlights
+2025-07-18 16:33:21.168 +03:00 [INF] Executed DbCommand (24ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "f"."Id", "f"."ArrivalTime", "f"."Departure", "f"."DepartureTime", "f"."Destination", "f"."FlightNumber", "f"."Gate", "f"."Status"
+FROM "Flights" AS "f"
+2025-07-18 16:33:21.200 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FlightsEntity.FlightEntity, FlightsEntity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-07-18 16:33:21.221 +03:00 [INF] Executed action FlightsApi.Controllers.FlightsController.GetAllFlights (FlightsApi) in 6030.6535ms
+2025-07-18 16:33:21.221 +03:00 [INF] Executed endpoint 'FlightsApi.Controllers.FlightsController.GetAllFlights (FlightsApi)'
+2025-07-18 16:33:21.243 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/api/Flights - 200 null application/json; charset=utf-8 6105.2739ms
+2025-07-18 16:34:16.561 +03:00 [INF] Request starting HTTP/2 POST https://localhost:44375/api/Flights - application/json 197
+2025-07-18 16:34:16.567 +03:00 [INF] CORS policy execution successful.
+2025-07-18 16:34:16.569 +03:00 [INF] Executing endpoint 'FlightsApi.Controllers.FlightsController.ScheduleNewFlightAsync (FlightsApi)'
+2025-07-18 16:34:16.580 +03:00 [INF] Route matched with {action = "ScheduleNewFlight", controller = "Flights"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ScheduleNewFlightAsync(FlightsEntity.Dto.CreateFlightRequestDto) on controller FlightsApi.Controllers.FlightsController (FlightsApi).
+2025-07-18 16:34:16.685 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "f"."Id", "f"."ArrivalTime", "f"."Departure", "f"."DepartureTime", "f"."Destination", "f"."FlightNumber", "f"."Gate", "f"."Status"
+FROM "Flights" AS "f"
+2025-07-18 16:34:16.770 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2025-07-18 16:34:16.772 +03:00 [INF] Executed action FlightsApi.Controllers.FlightsController.ScheduleNewFlightAsync (FlightsApi) in 191.377ms
+2025-07-18 16:34:16.772 +03:00 [INF] Executed endpoint 'FlightsApi.Controllers.FlightsController.ScheduleNewFlightAsync (FlightsApi)'
+2025-07-18 16:34:16.772 +03:00 [INF] Request finished HTTP/2 POST https://localhost:44375/api/Flights - 400 null text/plain; charset=utf-8 211.7933ms
+2025-07-18 16:34:46.192 +03:00 [INF] Request starting HTTP/2 POST https://localhost:44375/api/Flights - application/json 197
+2025-07-18 16:34:46.193 +03:00 [INF] CORS policy execution successful.
+2025-07-18 16:34:46.193 +03:00 [INF] Executing endpoint 'FlightsApi.Controllers.FlightsController.ScheduleNewFlightAsync (FlightsApi)'
+2025-07-18 16:34:46.193 +03:00 [INF] Route matched with {action = "ScheduleNewFlight", controller = "Flights"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ScheduleNewFlightAsync(FlightsEntity.Dto.CreateFlightRequestDto) on controller FlightsApi.Controllers.FlightsController (FlightsApi).
+2025-07-18 16:34:46.211 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "f"."Id", "f"."ArrivalTime", "f"."Departure", "f"."DepartureTime", "f"."Destination", "f"."FlightNumber", "f"."Gate", "f"."Status"
+FROM "Flights" AS "f"
+2025-07-18 16:35:16.569 +03:00 [ERR] Failed executing DbCommand (30,122ms) [Parameters=[@p0='?' (DbType = DateTime), @p1='?' (Size = 3), @p2='?' (DbType = DateTime), @p3='?' (Size = 5), @p4='?' (Size = 6), @p5='?' (Size = 2), @p6='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Flights" ("ArrivalTime", "Departure", "DepartureTime", "Destination", "FlightNumber", "Gate", "Status")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6)
+RETURNING "Id";
+2025-07-18 16:35:16.614 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'FlightsDl.FlightDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 5: 'database is locked'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__112_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.Storage.NonRetryingExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 5: 'database is locked'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__112_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.Storage.NonRetryingExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+2025-07-18 16:35:29.392 +03:00 [ERR] An error occurred while saving the entity changes. See the inner exception for details.
+2025-07-18 16:35:29.398 +03:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2025-07-18 16:35:29.401 +03:00 [INF] Executed action FlightsApi.Controllers.FlightsController.ScheduleNewFlightAsync (FlightsApi) in 43207.9029ms
+2025-07-18 16:35:29.402 +03:00 [INF] Executed endpoint 'FlightsApi.Controllers.FlightsController.ScheduleNewFlightAsync (FlightsApi)'
+2025-07-18 16:35:29.402 +03:00 [INF] Request finished HTTP/2 POST https://localhost:44375/api/Flights - 500 null text/plain; charset=utf-8 43210.1188ms
+2025-07-18 17:38:28.117 +03:00 [INF] User profile is available. Using 'C:\Users\shira\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-07-18 17:38:28.508 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/swagger/index.html - null null
+2025-07-18 17:38:28.633 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-18 17:38:28.634 +03:00 [INF] Hosting environment: Development
+2025-07-18 17:38:28.634 +03:00 [INF] Content root path: C:\Users\shira\Desktop\FlightsBoardIsracraProject\FlightSolution\FlightsApi
+2025-07-18 17:38:29.212 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/swagger/index.html - 200 null text/html;charset=utf-8 704.4847ms
+2025-07-18 17:38:29.357 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/_framework/aspnetcore-browser-refresh.js - null null
+2025-07-18 17:38:29.387 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 26.7136ms
+2025-07-18 17:38:29.533 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/_vs/browserLink - null null
+2025-07-18 17:38:29.590 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/_vs/browserLink - 200 null text/javascript; charset=UTF-8 74.6798ms
+2025-07-18 17:38:30.622 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/swagger/v1/swagger.json - null null
+2025-07-18 17:38:30.668 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 44.0844ms
+2025-07-18 17:40:36.377 +03:00 [INF] Request starting HTTP/2 POST https://localhost:44375/api/Flights - application/json 202
+2025-07-18 17:40:36.399 +03:00 [INF] CORS policy execution successful.
+2025-07-18 17:40:36.406 +03:00 [INF] Executing endpoint 'FlightsApi.Controllers.FlightsController.ScheduleNewFlightAsync (FlightsApi)'
+2025-07-18 17:40:36.446 +03:00 [INF] Route matched with {action = "ScheduleNewFlight", controller = "Flights"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ScheduleNewFlightAsync(FlightsEntity.Dto.CreateFlightRequestDto) on controller FlightsApi.Controllers.FlightsController (FlightsApi).
+2025-07-18 17:40:37.916 +03:00 [INF] Executed DbCommand (19ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "f"."Id", "f"."ArrivalTime", "f"."Departure", "f"."DepartureTime", "f"."Destination", "f"."FlightNumber", "f"."Gate", "f"."Status"
+FROM "Flights" AS "f"
+2025-07-18 17:41:08.120 +03:00 [ERR] Failed executing DbCommand (30,029ms) [Parameters=[@p0='?' (DbType = DateTime), @p1='?' (Size = 3), @p2='?' (DbType = DateTime), @p3='?' (Size = 3), @p4='?' (Size = 3), @p5='?' (Size = 3), @p6='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Flights" ("ArrivalTime", "Departure", "DepartureTime", "Destination", "FlightNumber", "Gate", "Status")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6)
+RETURNING "Id";
+2025-07-18 17:41:08.163 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'FlightsDl.FlightDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 5: 'database is locked'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__112_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.Storage.NonRetryingExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 5: 'database is locked'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__112_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.Storage.NonRetryingExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+2025-07-18 17:42:12.681 +03:00 [INF] User profile is available. Using 'C:\Users\shira\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-07-18 17:42:12.968 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/swagger/index.html - null null
+2025-07-18 17:42:13.115 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-18 17:42:13.116 +03:00 [INF] Hosting environment: Development
+2025-07-18 17:42:13.116 +03:00 [INF] Content root path: C:\Users\shira\Desktop\FlightsBoardIsracraProject\FlightSolution\FlightsApi
+2025-07-18 17:42:13.357 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/swagger/index.html - 200 null text/html;charset=utf-8 383.0426ms
+2025-07-18 17:42:13.372 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/_framework/aspnetcore-browser-refresh.js - null null
+2025-07-18 17:42:13.397 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 13.7916ms
+2025-07-18 17:42:13.570 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/_vs/browserLink - null null
+2025-07-18 17:42:13.630 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/_vs/browserLink - 200 null text/javascript; charset=UTF-8 59.4315ms
+2025-07-18 17:42:14.550 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/swagger/v1/swagger.json - null null
+2025-07-18 17:42:14.580 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 30.8045ms
+2025-07-18 17:42:49.213 +03:00 [INF] Request starting HTTP/2 POST https://localhost:44375/api/Flights - application/json 204
+2025-07-18 17:42:49.228 +03:00 [INF] CORS policy execution successful.
+2025-07-18 17:42:49.233 +03:00 [INF] Executing endpoint 'FlightsApi.Controllers.FlightsController.ScheduleNewFlightAsync (FlightsApi)'
+2025-07-18 17:42:49.270 +03:00 [INF] Route matched with {action = "ScheduleNewFlight", controller = "Flights"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ScheduleNewFlightAsync(FlightsEntity.Dto.CreateFlightRequestDto) on controller FlightsApi.Controllers.FlightsController (FlightsApi).
+2025-07-18 17:42:50.718 +03:00 [INF] Executed DbCommand (17ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "f"."Id", "f"."ArrivalTime", "f"."Departure", "f"."DepartureTime", "f"."Destination", "f"."FlightNumber", "f"."Gate", "f"."Status"
+FROM "Flights" AS "f"
+2025-07-18 17:43:20.946 +03:00 [ERR] Failed executing DbCommand (30,047ms) [Parameters=[@p0='?' (DbType = DateTime), @p1='?' (Size = 4), @p2='?' (DbType = DateTime), @p3='?' (Size = 4), @p4='?' (Size = 5), @p5='?' (Size = 4), @p6='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Flights" ("ArrivalTime", "Departure", "DepartureTime", "Destination", "FlightNumber", "Gate", "Status")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6)
+RETURNING "Id";
+2025-07-18 17:43:20.986 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'FlightsDl.FlightDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 5: 'database is locked'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__112_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.Storage.NonRetryingExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 5: 'database is locked'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__112_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.Storage.NonRetryingExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+2025-07-18 17:51:03.764 +03:00 [INF] User profile is available. Using 'C:\Users\shira\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-07-18 17:51:04.648 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/swagger/index.html - null null
+2025-07-18 17:51:05.529 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-18 17:51:05.530 +03:00 [INF] Hosting environment: Development
+2025-07-18 17:51:05.530 +03:00 [INF] Content root path: C:\Users\shira\Desktop\FlightsBoardIsracraProject\FlightSolution\FlightsApi
+2025-07-18 17:51:05.751 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/_framework/aspnetcore-browser-refresh.js - null null
+2025-07-18 17:51:05.749 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/swagger/index.html - 200 null text/html;charset=utf-8 1104.1108ms
+2025-07-18 17:51:05.769 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 14.6438ms
+2025-07-18 17:51:06.025 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/_vs/browserLink - null null
+2025-07-18 17:51:06.188 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/_vs/browserLink - 200 null text/javascript; charset=UTF-8 163.0464ms
+2025-07-18 17:51:08.163 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/swagger/v1/swagger.json - null null
+2025-07-18 17:51:08.260 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 97.3565ms
+2025-07-18 17:52:11.987 +03:00 [INF] Request starting HTTP/2 POST https://localhost:44375/api/Flights - application/json 193
+2025-07-18 17:52:12.033 +03:00 [INF] CORS policy execution successful.
+2025-07-18 17:52:12.051 +03:00 [INF] Executing endpoint 'FlightsApi.Controllers.FlightsController.ScheduleNewFlightAsync (FlightsApi)'
+2025-07-18 17:52:12.148 +03:00 [INF] Route matched with {action = "ScheduleNewFlight", controller = "Flights"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ScheduleNewFlightAsync(FlightsEntity.Dto.CreateFlightRequestDto) on controller FlightsApi.Controllers.FlightsController (FlightsApi).
+2025-07-18 17:52:13.157 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-07-18 17:52:13.261 +03:00 [INF] Executed action FlightsApi.Controllers.FlightsController.ScheduleNewFlightAsync (FlightsApi) in 1099.9204ms
+2025-07-18 17:52:13.262 +03:00 [INF] Executed endpoint 'FlightsApi.Controllers.FlightsController.ScheduleNewFlightAsync (FlightsApi)'
+2025-07-18 17:52:13.271 +03:00 [INF] Request finished HTTP/2 POST https://localhost:44375/api/Flights - 400 null application/problem+json; charset=utf-8 1284.2962ms
+2025-07-18 17:53:23.059 +03:00 [INF] Request starting HTTP/2 POST https://localhost:44375/api/Flights - application/json 195
+2025-07-18 17:53:23.063 +03:00 [INF] CORS policy execution successful.
+2025-07-18 17:53:23.065 +03:00 [INF] Executing endpoint 'FlightsApi.Controllers.FlightsController.ScheduleNewFlightAsync (FlightsApi)'
+2025-07-18 17:53:23.067 +03:00 [INF] Route matched with {action = "ScheduleNewFlight", controller = "Flights"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ScheduleNewFlightAsync(FlightsEntity.Dto.CreateFlightRequestDto) on controller FlightsApi.Controllers.FlightsController (FlightsApi).
+2025-07-18 17:53:26.179 +03:00 [INF] Executed DbCommand (31ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "f"."Id", "f"."ArrivalTime", "f"."Departure", "f"."DepartureTime", "f"."Destination", "f"."FlightNumber", "f"."Gate", "f"."Status"
+FROM "Flights" AS "f"
+2025-07-18 17:53:56.746 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/swagger/index.html - null null
+2025-07-18 17:53:56.772 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/swagger/index.html - 200 null text/html;charset=utf-8 25.8079ms
+2025-07-18 17:53:56.852 +03:00 [ERR] Failed executing DbCommand (30,151ms) [Parameters=[@p0='?' (DbType = DateTime), @p1='?' (Size = 3), @p2='?' (DbType = DateTime), @p3='?' (Size = 4), @p4='?' (Size = 5), @p5='?' (Size = 3), @p6='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Flights" ("ArrivalTime", "Departure", "DepartureTime", "Destination", "FlightNumber", "Gate", "Status")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6)
+RETURNING "Id";
+2025-07-18 17:53:56.956 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/_vs/browserLink - null null
+2025-07-18 17:53:56.957 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/_framework/aspnetcore-browser-refresh.js - null null
+2025-07-18 17:53:56.960 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 2.457ms
+2025-07-18 17:53:56.991 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'FlightsDl.FlightDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 5: 'database is locked'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__112_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.Storage.NonRetryingExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 5: 'database is locked'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__112_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.Storage.NonRetryingExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+2025-07-18 17:54:02.460 +03:00 [ERR] An error occurred while saving the entity changes. See the inner exception for details.
+2025-07-18 17:54:02.462 +03:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2025-07-18 17:54:02.470 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/_vs/browserLink - 200 null text/javascript; charset=UTF-8 5514.8142ms
+2025-07-18 17:54:02.472 +03:00 [INF] Executed action FlightsApi.Controllers.FlightsController.ScheduleNewFlightAsync (FlightsApi) in 39404.6544ms
+2025-07-18 17:54:02.473 +03:00 [INF] Executed endpoint 'FlightsApi.Controllers.FlightsController.ScheduleNewFlightAsync (FlightsApi)'
+2025-07-18 17:54:02.485 +03:00 [INF] Request finished HTTP/2 POST https://localhost:44375/api/Flights - 500 null text/plain; charset=utf-8 39426.0588ms
+2025-07-18 17:54:02.602 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/swagger/v1/swagger.json - null null
+2025-07-18 17:54:02.628 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 25.9723ms
+2025-07-18 17:54:59.727 +03:00 [INF] Request starting HTTP/2 POST https://localhost:44375/api/Flights - application/json 183
+2025-07-18 17:54:59.729 +03:00 [INF] CORS policy execution successful.
+2025-07-18 17:54:59.729 +03:00 [INF] Executing endpoint 'FlightsApi.Controllers.FlightsController.ScheduleNewFlightAsync (FlightsApi)'
+2025-07-18 17:54:59.730 +03:00 [INF] Route matched with {action = "ScheduleNewFlight", controller = "Flights"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ScheduleNewFlightAsync(FlightsEntity.Dto.CreateFlightRequestDto) on controller FlightsApi.Controllers.FlightsController (FlightsApi).
+2025-07-18 17:54:59.922 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "f"."Id", "f"."ArrivalTime", "f"."Departure", "f"."DepartureTime", "f"."Destination", "f"."FlightNumber", "f"."Gate", "f"."Status"
+FROM "Flights" AS "f"
+2025-07-18 17:55:30.082 +03:00 [ERR] Failed executing DbCommand (30,153ms) [Parameters=[@p0='?' (DbType = DateTime), @p1='?' (Size = 3), @p2='?' (DbType = DateTime), @p3='?' (Size = 3), @p4='?' (Size = 4), @p5='?' (Size = 3), @p6='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Flights" ("ArrivalTime", "Departure", "DepartureTime", "Destination", "FlightNumber", "Gate", "Status")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6)
+RETURNING "Id";
+2025-07-18 17:55:30.084 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'FlightsDl.FlightDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 5: 'database is locked'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__112_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.Storage.NonRetryingExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 5: 'database is locked'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__112_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.Storage.NonRetryingExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+2025-07-18 17:55:41.266 +03:00 [ERR] An error occurred while saving the entity changes. See the inner exception for details.
+2025-07-18 17:55:44.035 +03:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2025-07-18 17:55:44.036 +03:00 [INF] Executed action FlightsApi.Controllers.FlightsController.ScheduleNewFlightAsync (FlightsApi) in 44305.7391ms
+2025-07-18 17:55:44.036 +03:00 [INF] Executed endpoint 'FlightsApi.Controllers.FlightsController.ScheduleNewFlightAsync (FlightsApi)'
+2025-07-18 17:55:44.038 +03:00 [INF] Request finished HTTP/2 POST https://localhost:44375/api/Flights - 500 null text/plain; charset=utf-8 44310.8133ms
+2025-07-18 18:06:04.459 +03:00 [INF] User profile is available. Using 'C:\Users\shira\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-07-18 18:06:05.083 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/swagger/index.html - null null
+2025-07-18 18:06:05.271 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-18 18:06:05.272 +03:00 [INF] Hosting environment: Development
+2025-07-18 18:06:05.272 +03:00 [INF] Content root path: C:\Users\shira\Desktop\FlightsBoardIsracraProject\FlightSolution\FlightsApi
+2025-07-18 18:06:05.774 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/swagger/index.html - 200 null text/html;charset=utf-8 693.1339ms
+2025-07-18 18:06:06.149 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/_framework/aspnetcore-browser-refresh.js - null null
+2025-07-18 18:06:06.153 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/_vs/browserLink - null null
+2025-07-18 18:06:06.159 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 9.2411ms
+2025-07-18 18:06:06.249 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/_vs/browserLink - 200 null text/javascript; charset=UTF-8 96.1849ms
+2025-07-18 18:06:08.356 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/swagger/v1/swagger.json - null null
+2025-07-18 18:06:08.406 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 49.746ms
+2025-07-18 18:07:14.341 +03:00 [INF] Request starting HTTP/2 POST https://localhost:44375/api/Flights - application/json 183
+2025-07-18 18:07:14.387 +03:00 [INF] CORS policy execution successful.
+2025-07-18 18:07:14.405 +03:00 [INF] Executing endpoint 'FlightsApi.Controllers.FlightsController.ScheduleNewFlightAsync (FlightsApi)'
+2025-07-18 18:07:14.519 +03:00 [INF] Route matched with {action = "ScheduleNewFlight", controller = "Flights"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ScheduleNewFlightAsync(FlightsEntity.Dto.CreateFlightRequestDto) on controller FlightsApi.Controllers.FlightsController (FlightsApi).
+2025-07-18 18:07:18.740 +03:00 [INF] Executed DbCommand (26ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "f"."Id", "f"."ArrivalTime", "f"."Departure", "f"."DepartureTime", "f"."Destination", "f"."FlightNumber", "f"."Gate", "f"."Status"
+FROM "Flights" AS "f"
+2025-07-18 18:07:49.421 +03:00 [ERR] Failed executing DbCommand (30,170ms) [Parameters=[@p0='?' (DbType = DateTime), @p1='?' (Size = 3), @p2='?' (DbType = DateTime), @p3='?' (Size = 3), @p4='?' (Size = 4), @p5='?' (Size = 3), @p6='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Flights" ("ArrivalTime", "Departure", "DepartureTime", "Destination", "FlightNumber", "Gate", "Status")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6)
+RETURNING "Id";
+2025-07-18 18:07:49.542 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'FlightsDl.FlightDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 5: 'database is locked'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__112_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.Storage.NonRetryingExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 5: 'database is locked'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__112_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.Storage.NonRetryingExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+2025-07-18 18:08:03.397 +03:00 [ERR] An error occurred while saving the entity changes. See the inner exception for details.
+2025-07-18 18:08:03.410 +03:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2025-07-18 18:08:03.418 +03:00 [INF] Executed action FlightsApi.Controllers.FlightsController.ScheduleNewFlightAsync (FlightsApi) in 48892.8339ms
+2025-07-18 18:08:03.418 +03:00 [INF] Executed endpoint 'FlightsApi.Controllers.FlightsController.ScheduleNewFlightAsync (FlightsApi)'
+2025-07-18 18:08:03.431 +03:00 [INF] Request finished HTTP/2 POST https://localhost:44375/api/Flights - 500 null text/plain; charset=utf-8 49089.8011ms
+2025-07-18 18:09:48.403 +03:00 [INF] Request starting HTTP/2 POST https://localhost:44375/api/Flights - application/json 183
+2025-07-18 18:09:48.406 +03:00 [INF] CORS policy execution successful.
+2025-07-18 18:09:48.407 +03:00 [INF] Executing endpoint 'FlightsApi.Controllers.FlightsController.ScheduleNewFlightAsync (FlightsApi)'
+2025-07-18 18:09:48.407 +03:00 [INF] Route matched with {action = "ScheduleNewFlight", controller = "Flights"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ScheduleNewFlightAsync(FlightsEntity.Dto.CreateFlightRequestDto) on controller FlightsApi.Controllers.FlightsController (FlightsApi).
+2025-07-18 18:09:57.653 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "f"."Id", "f"."ArrivalTime", "f"."Departure", "f"."DepartureTime", "f"."Destination", "f"."FlightNumber", "f"."Gate", "f"."Status"
+FROM "Flights" AS "f"
+2025-07-18 18:09:58.621 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/swagger/index.html - null null
+2025-07-18 18:09:58.667 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/swagger/index.html - 200 null text/html;charset=utf-8 45.5498ms
+2025-07-18 18:09:58.866 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/_vs/browserLink - null null
+2025-07-18 18:09:58.936 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/_framework/aspnetcore-browser-refresh.js - null null
+2025-07-18 18:09:58.939 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 2.8415ms
+2025-07-18 18:09:58.964 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/_vs/browserLink - 200 null text/javascript; charset=UTF-8 98.8329ms
+2025-07-18 18:10:00.069 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/swagger/v1/swagger.json - null null
+2025-07-18 18:10:00.102 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 33.104ms
+2025-07-18 18:10:19.541 +03:00 [INF] Request starting HTTP/2 POST https://localhost:44375/api/Flights - application/json 183
+2025-07-18 18:10:19.545 +03:00 [INF] CORS policy execution successful.
+2025-07-18 18:10:19.546 +03:00 [INF] Executing endpoint 'FlightsApi.Controllers.FlightsController.ScheduleNewFlightAsync (FlightsApi)'
+2025-07-18 18:10:19.570 +03:00 [INF] Route matched with {action = "ScheduleNewFlight", controller = "Flights"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ScheduleNewFlightAsync(FlightsEntity.Dto.CreateFlightRequestDto) on controller FlightsApi.Controllers.FlightsController (FlightsApi).
+2025-07-18 18:10:22.540 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "f"."Id", "f"."ArrivalTime", "f"."Departure", "f"."DepartureTime", "f"."Destination", "f"."FlightNumber", "f"."Gate", "f"."Status"
+FROM "Flights" AS "f"
+2025-07-18 18:10:27.796 +03:00 [ERR] Failed executing DbCommand (30,138ms) [Parameters=[@p0='?' (DbType = DateTime), @p1='?' (Size = 3), @p2='?' (DbType = DateTime), @p3='?' (Size = 3), @p4='?' (Size = 4), @p5='?' (Size = 3), @p6='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Flights" ("ArrivalTime", "Departure", "DepartureTime", "Destination", "FlightNumber", "Gate", "Status")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6)
+RETURNING "Id";
+2025-07-18 18:10:27.798 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'FlightsDl.FlightDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 5: 'database is locked'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__112_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.Storage.NonRetryingExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 5: 'database is locked'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__112_0(DbContext _, ValueTuple`2 t)
+   at Microsoft.EntityFrameworkCore.Storage.NonRetryingExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+2025-07-18 18:11:21.269 +03:00 [INF] Executed DbCommand (58,716ms) [Parameters=[@p0='?' (DbType = DateTime), @p1='?' (Size = 3), @p2='?' (DbType = DateTime), @p3='?' (Size = 3), @p4='?' (Size = 4), @p5='?' (Size = 3), @p6='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Flights" ("ArrivalTime", "Departure", "DepartureTime", "Destination", "FlightNumber", "Gate", "Status")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6)
+RETURNING "Id";
+2025-07-18 18:11:21.430 +03:00 [ERR] An error occurred while saving the entity changes. See the inner exception for details.
+2025-07-18 18:11:21.442 +03:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2025-07-18 18:11:21.452 +03:00 [INF] Executed action FlightsApi.Controllers.FlightsController.ScheduleNewFlightAsync (FlightsApi) in 93044.209ms
+2025-07-18 18:11:21.452 +03:00 [INF] Executed endpoint 'FlightsApi.Controllers.FlightsController.ScheduleNewFlightAsync (FlightsApi)'
+2025-07-18 18:11:21.453 +03:00 [INF] Request finished HTTP/2 POST https://localhost:44375/api/Flights - 500 null text/plain; charset=utf-8 93049.8664ms
+2025-07-18 18:11:23.719 +03:00 [INF] ScheduleNewFlightAsync
+2025-07-18 18:11:23.720 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2025-07-18 18:11:23.721 +03:00 [INF] Executed action FlightsApi.Controllers.FlightsController.ScheduleNewFlightAsync (FlightsApi) in 64149.9542ms
+2025-07-18 18:11:23.722 +03:00 [INF] Executed endpoint 'FlightsApi.Controllers.FlightsController.ScheduleNewFlightAsync (FlightsApi)'
+2025-07-18 18:11:23.722 +03:00 [INF] Request finished HTTP/2 POST https://localhost:44375/api/Flights - 200 null text/plain; charset=utf-8 64181.0327ms
+2025-07-18 18:11:26.858 +03:00 [INF] Request starting HTTP/2 POST https://localhost:44375/api/Flights - application/json 183
+2025-07-18 18:11:26.860 +03:00 [INF] CORS policy execution successful.
+2025-07-18 18:11:26.860 +03:00 [INF] Executing endpoint 'FlightsApi.Controllers.FlightsController.ScheduleNewFlightAsync (FlightsApi)'
+2025-07-18 18:11:26.860 +03:00 [INF] Route matched with {action = "ScheduleNewFlight", controller = "Flights"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ScheduleNewFlightAsync(FlightsEntity.Dto.CreateFlightRequestDto) on controller FlightsApi.Controllers.FlightsController (FlightsApi).
+2025-07-18 18:11:29.461 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "f"."Id", "f"."ArrivalTime", "f"."Departure", "f"."DepartureTime", "f"."Destination", "f"."FlightNumber", "f"."Gate", "f"."Status"
+FROM "Flights" AS "f"
+2025-07-18 18:11:29.510 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@p0='?' (DbType = DateTime), @p1='?' (Size = 3), @p2='?' (DbType = DateTime), @p3='?' (Size = 3), @p4='?' (Size = 4), @p5='?' (Size = 3), @p6='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Flights" ("ArrivalTime", "Departure", "DepartureTime", "Destination", "FlightNumber", "Gate", "Status")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6)
+RETURNING "Id";
+2025-07-18 18:11:29.517 +03:00 [INF] ScheduleNewFlightAsync
+2025-07-18 18:11:29.517 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2025-07-18 18:11:29.519 +03:00 [INF] Executed action FlightsApi.Controllers.FlightsController.ScheduleNewFlightAsync (FlightsApi) in 2658.2026ms
+2025-07-18 18:11:29.519 +03:00 [INF] Executed endpoint 'FlightsApi.Controllers.FlightsController.ScheduleNewFlightAsync (FlightsApi)'
+2025-07-18 18:11:29.520 +03:00 [INF] Request finished HTTP/2 POST https://localhost:44375/api/Flights - 200 null text/plain; charset=utf-8 2661.8755ms
+2025-07-18 18:11:42.295 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/api/Flights - null null
+2025-07-18 18:11:42.298 +03:00 [INF] Executing endpoint 'FlightsApi.Controllers.FlightsController.GetAllFlights (FlightsApi)'
+2025-07-18 18:11:42.310 +03:00 [INF] Route matched with {action = "GetAllFlights", controller = "Flights"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllFlights() on controller FlightsApi.Controllers.FlightsController (FlightsApi).
+2025-07-18 18:11:42.344 +03:00 [INF] GetAllFlights
+2025-07-18 18:11:45.781 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "f"."Id", "f"."ArrivalTime", "f"."Departure", "f"."DepartureTime", "f"."Destination", "f"."FlightNumber", "f"."Gate", "f"."Status"
+FROM "Flights" AS "f"
+2025-07-18 18:11:45.787 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FlightsEntity.FlightEntity, FlightsEntity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-07-18 18:11:45.834 +03:00 [INF] Executed action FlightsApi.Controllers.FlightsController.GetAllFlights (FlightsApi) in 3523.2392ms
+2025-07-18 18:11:45.834 +03:00 [INF] Executed endpoint 'FlightsApi.Controllers.FlightsController.GetAllFlights (FlightsApi)'
+2025-07-18 18:11:45.835 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/api/Flights - 200 null application/json; charset=utf-8 3540.0131ms
+2025-07-18 18:12:31.761 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/api/Flights/0 - null null
+2025-07-18 18:12:31.762 +03:00 [INF] Executing endpoint 'FlightsApi.Controllers.FlightsController.GetFlightById (FlightsApi)'
+2025-07-18 18:12:31.789 +03:00 [INF] Route matched with {action = "GetFlightById", controller = "Flights"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetFlightById(System.String) on controller FlightsApi.Controllers.FlightsController (FlightsApi).
+2025-07-18 18:12:31.793 +03:00 [INF] GetFlightById
+2025-07-18 18:12:32.057 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__Parse_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "f"."Id", "f"."ArrivalTime", "f"."Departure", "f"."DepartureTime", "f"."Destination", "f"."FlightNumber", "f"."Gate", "f"."Status"
+FROM "Flights" AS "f"
+WHERE "f"."Id" = @__Parse_0
+LIMIT 1
+2025-07-18 18:12:32.058 +03:00 [INF] Executing OkObjectResult, writing value of type 'null'.
+2025-07-18 18:12:32.058 +03:00 [INF] Executed action FlightsApi.Controllers.FlightsController.GetFlightById (FlightsApi) in 269.0231ms
+2025-07-18 18:12:32.059 +03:00 [INF] Executed endpoint 'FlightsApi.Controllers.FlightsController.GetFlightById (FlightsApi)'
+2025-07-18 18:12:32.062 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/api/Flights/0 - 204 null null 301.34ms
+2025-07-18 18:12:46.718 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/api/Flights/1 - null null
+2025-07-18 18:12:46.718 +03:00 [INF] Executing endpoint 'FlightsApi.Controllers.FlightsController.GetFlightById (FlightsApi)'
+2025-07-18 18:12:46.718 +03:00 [INF] Route matched with {action = "GetFlightById", controller = "Flights"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetFlightById(System.String) on controller FlightsApi.Controllers.FlightsController (FlightsApi).
+2025-07-18 18:12:46.720 +03:00 [INF] GetFlightById
+2025-07-18 18:12:46.727 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__Parse_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "f"."Id", "f"."ArrivalTime", "f"."Departure", "f"."DepartureTime", "f"."Destination", "f"."FlightNumber", "f"."Gate", "f"."Status"
+FROM "Flights" AS "f"
+WHERE "f"."Id" = @__Parse_0
+LIMIT 1
+2025-07-18 18:12:46.728 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2025-07-18 18:12:46.729 +03:00 [INF] Executed action FlightsApi.Controllers.FlightsController.GetFlightById (FlightsApi) in 10.5352ms
+2025-07-18 18:12:46.729 +03:00 [INF] Executed endpoint 'FlightsApi.Controllers.FlightsController.GetFlightById (FlightsApi)'
+2025-07-18 18:12:46.729 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/api/Flights/1 - 200 null text/plain; charset=utf-8 11.7332ms
+2025-07-18 18:12:56.090 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/api/Flights/3 - null null
+2025-07-18 18:12:56.091 +03:00 [INF] Executing endpoint 'FlightsApi.Controllers.FlightsController.GetFlightById (FlightsApi)'
+2025-07-18 18:12:56.091 +03:00 [INF] Route matched with {action = "GetFlightById", controller = "Flights"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetFlightById(System.String) on controller FlightsApi.Controllers.FlightsController (FlightsApi).
+2025-07-18 18:12:56.093 +03:00 [INF] GetFlightById
+2025-07-18 18:12:56.101 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__Parse_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "f"."Id", "f"."ArrivalTime", "f"."Departure", "f"."DepartureTime", "f"."Destination", "f"."FlightNumber", "f"."Gate", "f"."Status"
+FROM "Flights" AS "f"
+WHERE "f"."Id" = @__Parse_0
+LIMIT 1
+2025-07-18 18:12:56.101 +03:00 [INF] Executing OkObjectResult, writing value of type 'null'.
+2025-07-18 18:12:56.101 +03:00 [INF] Executed action FlightsApi.Controllers.FlightsController.GetFlightById (FlightsApi) in 9.792ms
+2025-07-18 18:12:56.101 +03:00 [INF] Executed endpoint 'FlightsApi.Controllers.FlightsController.GetFlightById (FlightsApi)'
+2025-07-18 18:12:56.102 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/api/Flights/3 - 204 null null 11.3338ms
+2025-07-18 18:13:00.919 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/api/Flights/2 - null null
+2025-07-18 18:13:00.919 +03:00 [INF] Executing endpoint 'FlightsApi.Controllers.FlightsController.GetFlightById (FlightsApi)'
+2025-07-18 18:13:00.919 +03:00 [INF] Route matched with {action = "GetFlightById", controller = "Flights"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetFlightById(System.String) on controller FlightsApi.Controllers.FlightsController (FlightsApi).
+2025-07-18 18:13:00.920 +03:00 [INF] GetFlightById
+2025-07-18 18:13:00.921 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__Parse_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "f"."Id", "f"."ArrivalTime", "f"."Departure", "f"."DepartureTime", "f"."Destination", "f"."FlightNumber", "f"."Gate", "f"."Status"
+FROM "Flights" AS "f"
+WHERE "f"."Id" = @__Parse_0
+LIMIT 1
+2025-07-18 18:13:00.921 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2025-07-18 18:13:00.924 +03:00 [INF] Executed action FlightsApi.Controllers.FlightsController.GetFlightById (FlightsApi) in 4.1133ms
+2025-07-18 18:13:00.924 +03:00 [INF] Executed endpoint 'FlightsApi.Controllers.FlightsController.GetFlightById (FlightsApi)'
+2025-07-18 18:13:00.924 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/api/Flights/2 - 200 null text/plain; charset=utf-8 5.3102ms
+2025-07-18 18:13:38.745 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/api/Flights/search?status=scheduled&destination=KAN - null null
+2025-07-18 18:13:38.747 +03:00 [INF] Executing endpoint 'FlightsApi.Controllers.FlightsController.Search (FlightsApi)'
+2025-07-18 18:13:38.759 +03:00 [INF] Route matched with {action = "Search", controller = "Flights"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Search(System.String, System.String) on controller FlightsApi.Controllers.FlightsController (FlightsApi).
+2025-07-18 18:13:38.774 +03:00 [INF] Search
+2025-07-18 18:13:38.864 +03:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "f"."Id", "f"."ArrivalTime", "f"."Departure", "f"."DepartureTime", "f"."Destination", "f"."FlightNumber", "f"."Gate", "f"."Status"
+FROM "Flights" AS "f"
+2025-07-18 18:13:38.921 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[FlightsEntity.FlightEntity, FlightsEntity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-07-18 18:13:38.922 +03:00 [INF] Executed action FlightsApi.Controllers.FlightsController.Search (FlightsApi) in 163.0817ms
+2025-07-18 18:13:38.923 +03:00 [INF] Executed endpoint 'FlightsApi.Controllers.FlightsController.Search (FlightsApi)'
+2025-07-18 18:13:38.923 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/api/Flights/search?status=scheduled&destination=KAN - 200 null application/json; charset=utf-8 178.3805ms
+2025-07-18 18:14:15.281 +03:00 [INF] Request starting HTTP/2 POST https://localhost:44375/api/User/Login - application/json 51
+2025-07-18 18:14:15.282 +03:00 [INF] CORS policy execution successful.
+2025-07-18 18:14:15.292 +03:00 [INF] Executing endpoint 'RestApi.Controllers.UserController.Login (FlightsApi)'
+2025-07-18 18:14:15.296 +03:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(FlightsEntity.Dto.CreateUserRequestDto) on controller RestApi.Controllers.UserController (FlightsApi).
+2025-07-18 18:14:15.338 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__username_0='?' (Size = 7)], CommandType='"Text"', CommandTimeout='30']
+SELECT "u"."Id", "u"."CreatedAt", "u"."Password", "u"."Username"
+FROM "UserLogIns" AS "u"
+WHERE "u"."Username" = @__username_0
+LIMIT 1
+2025-07-18 18:14:15.342 +03:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-07-18 18:14:15.418 +03:00 [INF] Executed action RestApi.Controllers.UserController.Login (FlightsApi) in 121.6719ms
+2025-07-18 18:14:15.418 +03:00 [INF] Executed endpoint 'RestApi.Controllers.UserController.Login (FlightsApi)'
+2025-07-18 18:14:15.418 +03:00 [INF] Request finished HTTP/2 POST https://localhost:44375/api/User/Login - 404 null application/problem+json; charset=utf-8 137.6342ms
+2025-07-18 18:14:51.495 +03:00 [INF] Request starting HTTP/2 POST https://localhost:44375/api/User/SignUp - application/json 51
+2025-07-18 18:14:51.498 +03:00 [INF] CORS policy execution successful.
+2025-07-18 18:14:51.501 +03:00 [INF] Executing endpoint 'RestApi.Controllers.UserController.SignUp (FlightsApi)'
+2025-07-18 18:14:51.516 +03:00 [INF] Route matched with {action = "SignUp", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult SignUp(FlightsEntity.Dto.CreateUserRequestDto) on controller RestApi.Controllers.UserController (FlightsApi).
+2025-07-18 18:14:51.557 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@p0='?' (DbType = DateTime), @p1='?' (Size = 6), @p2='?' (Size = 7)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "UserLogIns" ("CreatedAt", "Password", "Username")
+VALUES (@p0, @p1, @p2)
+RETURNING "Id";
+2025-07-18 18:14:51.574 +03:00 [INF] SignUp
+2025-07-18 18:14:51.578 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2025-07-18 18:14:51.584 +03:00 [INF] Executed action RestApi.Controllers.UserController.SignUp (FlightsApi) in 67.6362ms
+2025-07-18 18:14:51.584 +03:00 [INF] Executed endpoint 'RestApi.Controllers.UserController.SignUp (FlightsApi)'
+2025-07-18 18:14:51.585 +03:00 [INF] Request finished HTTP/2 POST https://localhost:44375/api/User/SignUp - 200 null text/plain; charset=utf-8 90.1364ms
+2025-07-18 18:15:15.432 +03:00 [INF] Request starting HTTP/2 POST https://localhost:44375/api/User/Login - application/json 51
+2025-07-18 18:15:15.432 +03:00 [INF] CORS policy execution successful.
+2025-07-18 18:15:15.434 +03:00 [INF] Executing endpoint 'RestApi.Controllers.UserController.Login (FlightsApi)'
+2025-07-18 18:15:15.435 +03:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(FlightsEntity.Dto.CreateUserRequestDto) on controller RestApi.Controllers.UserController (FlightsApi).
+2025-07-18 18:15:15.440 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__username_0='?' (Size = 7)], CommandType='"Text"', CommandTimeout='30']
+SELECT "u"."Id", "u"."CreatedAt", "u"."Password", "u"."Username"
+FROM "UserLogIns" AS "u"
+WHERE "u"."Username" = @__username_0
+LIMIT 1
+2025-07-18 18:15:15.563 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2025-07-18 18:15:15.563 +03:00 [INF] Executed action RestApi.Controllers.UserController.Login (FlightsApi) in 128.8049ms
+2025-07-18 18:15:15.564 +03:00 [INF] Executed endpoint 'RestApi.Controllers.UserController.Login (FlightsApi)'
+2025-07-18 18:15:15.565 +03:00 [INF] Request finished HTTP/2 POST https://localhost:44375/api/User/Login - 200 null null 133.177ms
+2025-07-18 18:16:26.794 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/.well-known/appspecific/com.chrome.devtools.json - null null
+2025-07-18 18:16:26.874 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/.well-known/appspecific/com.chrome.devtools.json - 404 null null 79.9464ms
+2025-07-18 18:16:26.875 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:44375/.well-known/appspecific/com.chrome.devtools.json, Response status code: 404
+2025-07-18 18:19:02.086 +03:00 [INF] Request starting HTTP/2 POST https://localhost:44375/api/User/Login - application/json 51
+2025-07-18 18:19:02.097 +03:00 [INF] CORS policy execution successful.
+2025-07-18 18:19:02.098 +03:00 [INF] Executing endpoint 'RestApi.Controllers.UserController.Login (FlightsApi)'
+2025-07-18 18:19:02.098 +03:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(FlightsEntity.Dto.CreateUserRequestDto) on controller RestApi.Controllers.UserController (FlightsApi).
+2025-07-18 18:19:02.104 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__username_0='?' (Size = 7)], CommandType='"Text"', CommandTimeout='30']
+SELECT "u"."Id", "u"."CreatedAt", "u"."Password", "u"."Username"
+FROM "UserLogIns" AS "u"
+WHERE "u"."Username" = @__username_0
+LIMIT 1
+2025-07-18 18:19:02.112 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2025-07-18 18:19:02.113 +03:00 [INF] Executed action RestApi.Controllers.UserController.Login (FlightsApi) in 14.2093ms
+2025-07-18 18:19:02.113 +03:00 [INF] Executed endpoint 'RestApi.Controllers.UserController.Login (FlightsApi)'
+2025-07-18 18:19:02.113 +03:00 [INF] Request finished HTTP/2 POST https://localhost:44375/api/User/Login - 200 null null 27.5546ms
+2025-07-18 18:19:49.583 +03:00 [INF] Request starting HTTP/2 POST https://localhost:44375/api/User/Login - application/*+json 51
+2025-07-18 18:19:49.584 +03:00 [INF] CORS policy execution successful.
+2025-07-18 18:19:49.584 +03:00 [INF] Executing endpoint 'RestApi.Controllers.UserController.Login (FlightsApi)'
+2025-07-18 18:19:49.585 +03:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(FlightsEntity.Dto.CreateUserRequestDto) on controller RestApi.Controllers.UserController (FlightsApi).
+2025-07-18 18:19:49.587 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__username_0='?' (Size = 7)], CommandType='"Text"', CommandTimeout='30']
+SELECT "u"."Id", "u"."CreatedAt", "u"."Password", "u"."Username"
+FROM "UserLogIns" AS "u"
+WHERE "u"."Username" = @__username_0
+LIMIT 1
+2025-07-18 18:19:49.588 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2025-07-18 18:19:49.588 +03:00 [INF] Executed action RestApi.Controllers.UserController.Login (FlightsApi) in 3.2009ms
+2025-07-18 18:19:49.588 +03:00 [INF] Executed endpoint 'RestApi.Controllers.UserController.Login (FlightsApi)'
+2025-07-18 18:19:49.589 +03:00 [INF] Request finished HTTP/2 POST https://localhost:44375/api/User/Login - 200 null null 6.6141ms
+2025-07-18 18:26:49.099 +03:00 [INF] User profile is available. Using 'C:\Users\shira\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-07-18 18:26:49.884 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/swagger/index.html - null null
+2025-07-18 18:26:50.523 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-18 18:26:50.525 +03:00 [INF] Hosting environment: Development
+2025-07-18 18:26:50.525 +03:00 [INF] Content root path: C:\Users\shira\Desktop\FlightsBoardIsracraProject\FlightSolution\FlightsApi
+2025-07-18 18:26:50.526 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/swagger/index.html - 200 null text/html;charset=utf-8 647.0896ms
+2025-07-18 18:26:50.592 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/_framework/aspnetcore-browser-refresh.js - null null
+2025-07-18 18:26:50.607 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 12.3239ms
+2025-07-18 18:26:50.834 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/_vs/browserLink - null null
+2025-07-18 18:26:50.947 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/_vs/browserLink - 200 null text/javascript; charset=UTF-8 112.3474ms
+2025-07-18 18:26:52.165 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/swagger/v1/swagger.json - null null
+2025-07-18 18:26:52.202 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 37.5094ms
+2025-07-18 18:27:28.350 +03:00 [INF] Request starting HTTP/2 POST https://localhost:44375/api/User/Login - application/json 51
+2025-07-18 18:27:28.380 +03:00 [INF] CORS policy execution successful.
+2025-07-18 18:27:28.834 +03:00 [INF] Executing endpoint 'RestApi.Controllers.UserController.Login (FlightsApi)'
+2025-07-18 18:27:28.920 +03:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(FlightsEntity.Dto.CreateUserRequestDto) on controller RestApi.Controllers.UserController (FlightsApi).
+2025-07-18 18:27:33.379 +03:00 [INF] Executed DbCommand (74ms) [Parameters=[@__username_0='?' (Size = 7)], CommandType='"Text"', CommandTimeout='30']
+SELECT "u"."Id", "u"."CreatedAt", "u"."Password", "u"."Username"
+FROM "UserLogIns" AS "u"
+WHERE "u"."Username" = @__username_0
+LIMIT 1
+2025-07-18 18:27:33.707 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2025-07-18 18:27:33.714 +03:00 [INF] Executed action RestApi.Controllers.UserController.Login (FlightsApi) in 4786.6699ms
+2025-07-18 18:27:33.714 +03:00 [INF] Executed endpoint 'RestApi.Controllers.UserController.Login (FlightsApi)'
+2025-07-18 18:27:33.775 +03:00 [INF] Request finished HTTP/2 POST https://localhost:44375/api/User/Login - 200 null null 5424.3888ms
+2025-07-18 18:44:46.426 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/swagger/index.html - null null
+2025-07-18 18:44:46.629 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/swagger/index.html - 200 null text/html;charset=utf-8 209.3947ms
+2025-07-18 18:44:46.774 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/_vs/browserLink - null null
+2025-07-18 18:44:46.799 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/_framework/aspnetcore-browser-refresh.js - null null
+2025-07-18 18:44:46.803 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 3.5817ms
+2025-07-18 18:44:46.845 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/_vs/browserLink - 200 null text/javascript; charset=UTF-8 71.2016ms
+2025-07-18 18:44:48.518 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/swagger/v1/swagger.json - null null
+2025-07-18 18:44:48.570 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 51.3284ms
+2025-07-18 18:45:13.286 +03:00 [INF] Request starting HTTP/2 POST https://localhost:44375/api/User/Login - application/json 51
+2025-07-18 18:45:13.304 +03:00 [INF] CORS policy execution successful.
+2025-07-18 18:45:13.332 +03:00 [INF] Executing endpoint 'RestApi.Controllers.UserController.Login (FlightsApi)'
+2025-07-18 18:45:13.334 +03:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(FlightsEntity.Dto.CreateUserRequestDto) on controller RestApi.Controllers.UserController (FlightsApi).
+2025-07-18 18:45:13.755 +03:00 [INF] Executed DbCommand (43ms) [Parameters=[@__username_0='?' (Size = 7)], CommandType='"Text"', CommandTimeout='30']
+SELECT "u"."Id", "u"."CreatedAt", "u"."Password", "u"."Username"
+FROM "UserLogIns" AS "u"
+WHERE "u"."Username" = @__username_0
+LIMIT 1
+2025-07-18 18:45:13.774 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2025-07-18 18:45:13.775 +03:00 [INF] Executed action RestApi.Controllers.UserController.Login (FlightsApi) in 440.6866ms
+2025-07-18 18:45:13.775 +03:00 [INF] Executed endpoint 'RestApi.Controllers.UserController.Login (FlightsApi)'
+2025-07-18 18:45:13.778 +03:00 [INF] Request finished HTTP/2 POST https://localhost:44375/api/User/Login - 200 null null 491.2773ms
+2025-07-18 18:46:59.329 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/.well-known/appspecific/com.chrome.devtools.json - null null
+2025-07-18 18:46:59.378 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/.well-known/appspecific/com.chrome.devtools.json - 404 null null 48.2884ms
+2025-07-18 18:46:59.382 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:44375/.well-known/appspecific/com.chrome.devtools.json, Response status code: 404
+2025-07-18 18:56:43.925 +03:00 [INF] User profile is available. Using 'C:\Users\shira\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-07-18 18:56:45.038 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/swagger/index.html - null null
+2025-07-18 18:56:45.334 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-18 18:56:45.335 +03:00 [INF] Hosting environment: Development
+2025-07-18 18:56:45.335 +03:00 [INF] Content root path: C:\Users\shira\Desktop\FlightsBoardIsracraProject\FlightSolution\FlightsApi
+2025-07-18 18:56:45.685 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/swagger/index.html - 200 null text/html;charset=utf-8 650.1593ms
+2025-07-18 18:56:45.862 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/_framework/aspnetcore-browser-refresh.js - null null
+2025-07-18 18:56:45.878 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 10.0711ms
+2025-07-18 18:56:46.028 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/_vs/browserLink - null null
+2025-07-18 18:56:46.122 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/_vs/browserLink - 200 null text/javascript; charset=UTF-8 93.7838ms
+2025-07-18 18:56:47.619 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/swagger/v1/swagger.json - null null
+2025-07-18 18:56:47.655 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 36.4458ms
+2025-07-18 18:57:26.396 +03:00 [INF] Request starting HTTP/2 POST https://localhost:44375/api/User/Login - application/json 50
+2025-07-18 18:57:26.414 +03:00 [INF] CORS policy execution successful.
+2025-07-18 18:57:26.711 +03:00 [INF] Executing endpoint 'RestApi.Controllers.UserController.Login (FlightsApi)'
+2025-07-18 18:57:26.799 +03:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(FlightsEntity.Dto.CreateUserRequestDto) on controller RestApi.Controllers.UserController (FlightsApi).
+2025-07-18 18:57:30.951 +03:00 [INF] Executed DbCommand (37ms) [Parameters=[@__username_0='?' (Size = 7)], CommandType='"Text"', CommandTimeout='30']
+SELECT "u"."Id", "u"."CreatedAt", "u"."Password", "u"."Username"
+FROM "UserLogIns" AS "u"
+WHERE "u"."Username" = @__username_0
+LIMIT 1
+2025-07-18 18:57:31.161 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__username_0='?' (Size = 7)], CommandType='"Text"', CommandTimeout='30']
+SELECT "u"."Id", "u"."CreatedAt", "u"."Password", "u"."Username"
+FROM "UserLogIns" AS "u"
+WHERE "u"."Username" = @__username_0
+LIMIT 1
+2025-07-18 18:57:31.192 +03:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-07-18 18:57:31.317 +03:00 [INF] Executed action RestApi.Controllers.UserController.Login (FlightsApi) in 4510.6254ms
+2025-07-18 18:57:31.318 +03:00 [INF] Executed endpoint 'RestApi.Controllers.UserController.Login (FlightsApi)'
+2025-07-18 18:57:31.332 +03:00 [INF] Request finished HTTP/2 POST https://localhost:44375/api/User/Login - 404 null application/problem+json; charset=utf-8 4936.5195ms
+2025-07-18 19:00:31.937 +03:00 [INF] Request starting HTTP/2 POST https://localhost:44375/api/User/Login - application/json 51
+2025-07-18 19:00:31.989 +03:00 [INF] CORS policy execution successful.
+2025-07-18 19:00:31.995 +03:00 [INF] Executing endpoint 'RestApi.Controllers.UserController.Login (FlightsApi)'
+2025-07-18 19:00:31.997 +03:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(FlightsEntity.Dto.CreateUserRequestDto) on controller RestApi.Controllers.UserController (FlightsApi).
+2025-07-18 19:00:32.241 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__username_0='?' (Size = 7)], CommandType='"Text"', CommandTimeout='30']
+SELECT "u"."Id", "u"."CreatedAt", "u"."Password", "u"."Username"
+FROM "UserLogIns" AS "u"
+WHERE "u"."Username" = @__username_0
+LIMIT 1
+2025-07-18 19:00:32.245 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__username_0='?' (Size = 7)], CommandType='"Text"', CommandTimeout='30']
+SELECT "u"."Id", "u"."CreatedAt", "u"."Password", "u"."Username"
+FROM "UserLogIns" AS "u"
+WHERE "u"."Username" = @__username_0
+LIMIT 1
+2025-07-18 19:00:32.247 +03:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-07-18 19:00:32.249 +03:00 [INF] Executed action RestApi.Controllers.UserController.Login (FlightsApi) in 252.3629ms
+2025-07-18 19:00:32.250 +03:00 [INF] Executed endpoint 'RestApi.Controllers.UserController.Login (FlightsApi)'
+2025-07-18 19:00:32.251 +03:00 [INF] Request finished HTTP/2 POST https://localhost:44375/api/User/Login - 404 null application/problem+json; charset=utf-8 313.9991ms
+2025-07-18 19:00:38.847 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/swagger/index.html - null null
+2025-07-18 19:00:38.873 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/swagger/index.html - 200 null text/html;charset=utf-8 25.2045ms
+2025-07-18 19:00:38.982 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/_vs/browserLink - null null
+2025-07-18 19:00:38.988 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/_framework/aspnetcore-browser-refresh.js - null null
+2025-07-18 19:00:38.995 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 7.7005ms
+2025-07-18 19:00:39.048 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/_vs/browserLink - 200 null text/javascript; charset=UTF-8 66.1209ms
+2025-07-18 19:00:39.832 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/swagger/v1/swagger.json - null null
+2025-07-18 19:00:39.872 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 39.7501ms
+2025-07-18 19:01:02.575 +03:00 [INF] Request starting HTTP/2 POST https://localhost:44375/api/User/Login - application/json 51
+2025-07-18 19:01:02.578 +03:00 [INF] CORS policy execution successful.
+2025-07-18 19:01:02.600 +03:00 [INF] Executing endpoint 'RestApi.Controllers.UserController.Login (FlightsApi)'
+2025-07-18 19:01:02.601 +03:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(FlightsEntity.Dto.CreateUserRequestDto) on controller RestApi.Controllers.UserController (FlightsApi).
+2025-07-18 19:01:02.689 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__username_0='?' (Size = 7)], CommandType='"Text"', CommandTimeout='30']
+SELECT "u"."Id", "u"."CreatedAt", "u"."Password", "u"."Username"
+FROM "UserLogIns" AS "u"
+WHERE "u"."Username" = @__username_0
+LIMIT 1
+2025-07-18 19:01:02.693 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__username_0='?' (Size = 7)], CommandType='"Text"', CommandTimeout='30']
+SELECT "u"."Id", "u"."CreatedAt", "u"."Password", "u"."Username"
+FROM "UserLogIns" AS "u"
+WHERE "u"."Username" = @__username_0
+LIMIT 1
+2025-07-18 19:01:02.694 +03:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-07-18 19:01:02.695 +03:00 [INF] Executed action RestApi.Controllers.UserController.Login (FlightsApi) in 93.5504ms
+2025-07-18 19:01:02.695 +03:00 [INF] Executed endpoint 'RestApi.Controllers.UserController.Login (FlightsApi)'
+2025-07-18 19:01:02.696 +03:00 [INF] Request finished HTTP/2 POST https://localhost:44375/api/User/Login - 404 null application/problem+json; charset=utf-8 120.5691ms
+2025-07-18 19:06:22.490 +03:00 [INF] User profile is available. Using 'C:\Users\shira\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-07-18 19:06:23.311 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/swagger/index.html - null null
+2025-07-18 19:06:23.927 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-18 19:06:23.970 +03:00 [INF] Hosting environment: Development
+2025-07-18 19:06:23.971 +03:00 [INF] Content root path: C:\Users\shira\Desktop\FlightsBoardIsracraProject\FlightSolution\FlightsApi
+2025-07-18 19:06:23.973 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/_framework/aspnetcore-browser-refresh.js - null null
+2025-07-18 19:06:23.972 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/swagger/index.html - 200 null text/html;charset=utf-8 644.0767ms
+2025-07-18 19:06:23.983 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 7.9622ms
+2025-07-18 19:06:24.158 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/_vs/browserLink - null null
+2025-07-18 19:06:24.283 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/_vs/browserLink - 200 null text/javascript; charset=UTF-8 124.4562ms
+2025-07-18 19:06:25.520 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/swagger/v1/swagger.json - null null
+2025-07-18 19:06:25.547 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 26.3291ms
+2025-07-18 19:06:49.158 +03:00 [INF] Request starting HTTP/2 POST https://localhost:44375/api/User/Login/Login - application/json 51
+2025-07-18 19:06:49.183 +03:00 [INF] CORS policy execution successful.
+2025-07-18 19:06:49.556 +03:00 [INF] Executing endpoint 'RestApi.Controllers.UserController.Login (FlightsApi)'
+2025-07-18 19:06:49.640 +03:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(FlightsEntity.Dto.CreateUserRequestDto) on controller RestApi.Controllers.UserController (FlightsApi).
+2025-07-18 19:06:53.663 +03:00 [INF] Executed DbCommand (43ms) [Parameters=[@__username_0='?' (Size = 7)], CommandType='"Text"', CommandTimeout='30']
+SELECT "u"."Id", "u"."CreatedAt", "u"."Password", "u"."Username"
+FROM "UserLogIns" AS "u"
+WHERE "u"."Username" = @__username_0
+LIMIT 1
+2025-07-18 19:06:53.896 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2025-07-18 19:06:53.909 +03:00 [INF] Executed action RestApi.Controllers.UserController.Login (FlightsApi) in 4257.2564ms
+2025-07-18 19:06:53.910 +03:00 [INF] Executed endpoint 'RestApi.Controllers.UserController.Login (FlightsApi)'
+2025-07-18 19:06:53.935 +03:00 [INF] Request finished HTTP/2 POST https://localhost:44375/api/User/Login/Login - 200 null text/plain; charset=utf-8 4776.9548ms
+2025-07-18 19:07:05.854 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/.well-known/appspecific/com.chrome.devtools.json - null null
+2025-07-18 19:07:05.860 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/.well-known/appspecific/com.chrome.devtools.json - 404 null null 5.313ms
+2025-07-18 19:07:05.861 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:44375/.well-known/appspecific/com.chrome.devtools.json, Response status code: 404
+2025-07-18 19:08:50.061 +03:00 [INF] Request starting HTTP/2 POST https://localhost:44375/api/User/Login/Login - text/json 51
+2025-07-18 19:08:50.066 +03:00 [INF] CORS policy execution successful.
+2025-07-18 19:08:50.075 +03:00 [INF] Executing endpoint 'RestApi.Controllers.UserController.Login (FlightsApi)'
+2025-07-18 19:08:50.077 +03:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(FlightsEntity.Dto.CreateUserRequestDto) on controller RestApi.Controllers.UserController (FlightsApi).
+2025-07-18 19:08:50.202 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__username_0='?' (Size = 7)], CommandType='"Text"', CommandTimeout='30']
+SELECT "u"."Id", "u"."CreatedAt", "u"."Password", "u"."Username"
+FROM "UserLogIns" AS "u"
+WHERE "u"."Username" = @__username_0
+LIMIT 1
+2025-07-18 19:08:50.205 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2025-07-18 19:08:50.205 +03:00 [INF] Executed action RestApi.Controllers.UserController.Login (FlightsApi) in 128.4491ms
+2025-07-18 19:08:50.206 +03:00 [INF] Executed endpoint 'RestApi.Controllers.UserController.Login (FlightsApi)'
+2025-07-18 19:08:50.207 +03:00 [INF] Request finished HTTP/2 POST https://localhost:44375/api/User/Login/Login - 200 null text/plain; charset=utf-8 146.0538ms
+2025-07-18 19:10:21.450 +03:00 [INF] User profile is available. Using 'C:\Users\shira\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-07-18 19:10:22.124 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/swagger/index.html - null null
+2025-07-18 19:10:22.761 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/swagger/index.html - 200 null text/html;charset=utf-8 641.3156ms
+2025-07-18 19:10:22.820 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/_framework/aspnetcore-browser-refresh.js - null null
+2025-07-18 19:10:22.844 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 9.4847ms
+2025-07-18 19:10:22.852 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-18 19:10:22.854 +03:00 [INF] Hosting environment: Development
+2025-07-18 19:10:22.854 +03:00 [INF] Content root path: C:\Users\shira\Desktop\FlightsBoardIsracraProject\FlightSolution\FlightsApi
+2025-07-18 19:10:23.023 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/_vs/browserLink - null null
+2025-07-18 19:10:23.099 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/_vs/browserLink - 200 null text/javascript; charset=UTF-8 75.1158ms
+2025-07-18 19:10:24.138 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/swagger/v1/swagger.json - null null
+2025-07-18 19:10:24.167 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 28.191ms
+2025-07-18 19:10:51.336 +03:00 [INF] Request starting HTTP/2 POST https://localhost:44375/api/User/Login/Login - application/json 51
+2025-07-18 19:10:51.347 +03:00 [INF] CORS policy execution successful.
+2025-07-18 19:10:51.559 +03:00 [INF] Executing endpoint 'RestApi.Controllers.UserController.Login (FlightsApi)'
+2025-07-18 19:10:51.640 +03:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(FlightsEntity.Dto.CreateUserRequestDto) on controller RestApi.Controllers.UserController (FlightsApi).
+2025-07-18 19:10:56.293 +03:00 [INF] Executed DbCommand (32ms) [Parameters=[@__username_0='?' (Size = 7)], CommandType='"Text"', CommandTimeout='30']
+SELECT "u"."Id", "u"."CreatedAt", "u"."Password", "u"."Username"
+FROM "UserLogIns" AS "u"
+WHERE "u"."Username" = @__username_0
+LIMIT 1
+2025-07-18 19:10:56.509 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-07-18 19:10:56.528 +03:00 [INF] Executed action RestApi.Controllers.UserController.Login (FlightsApi) in 4879.4117ms
+2025-07-18 19:10:56.528 +03:00 [INF] Executed endpoint 'RestApi.Controllers.UserController.Login (FlightsApi)'
+2025-07-18 19:10:56.545 +03:00 [INF] Request finished HTTP/2 POST https://localhost:44375/api/User/Login/Login - 200 null application/json; charset=utf-8 5209.1965ms
+2025-07-18 19:11:17.514 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44375/.well-known/appspecific/com.chrome.devtools.json - null null
+2025-07-18 19:11:17.518 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44375/.well-known/appspecific/com.chrome.devtools.json - 404 null null 4.1313ms
+2025-07-18 19:11:17.523 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:44375/.well-known/appspecific/com.chrome.devtools.json, Response status code: 404
+2025-07-18 19:12:27.712 +03:00 [INF] Request starting HTTP/2 POST https://localhost:44375/api/User/Login/Login - application/json 51
+2025-07-18 19:12:27.717 +03:00 [INF] CORS policy execution successful.
+2025-07-18 19:12:27.724 +03:00 [INF] Executing endpoint 'RestApi.Controllers.UserController.Login (FlightsApi)'
+2025-07-18 19:12:27.726 +03:00 [INF] Route matched with {action = "Login", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(FlightsEntity.Dto.CreateUserRequestDto) on controller RestApi.Controllers.UserController (FlightsApi).
+2025-07-18 19:12:27.898 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__username_0='?' (Size = 7)], CommandType='"Text"', CommandTimeout='30']
+SELECT "u"."Id", "u"."CreatedAt", "u"."Password", "u"."Username"
+FROM "UserLogIns" AS "u"
+WHERE "u"."Username" = @__username_0
+LIMIT 1

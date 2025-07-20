@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "JaV2kbdX/Jc=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\shira\\Downloads\\FlightsBoardIsracraProject\\FlightSolution\\FlightsEntity\\FlightsEntity.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\shira\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\shira\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

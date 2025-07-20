@@ -1,0 +1,13 @@
+2025-07-15 23:22:15.054 +03:00 [INF] Now listening on: https://localhost:7188
+2025-07-15 23:22:15.099 +03:00 [INF] Now listening on: http://localhost:5202
+2025-07-15 23:22:15.313 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-15 23:22:15.316 +03:00 [INF] Hosting environment: Development
+2025-07-15 23:22:15.317 +03:00 [INF] Content root path: C:\Users\shira\Desktop\FlightSolution\FlightsApi
+2025-07-15 23:22:16.884 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7188/swagger/index.html - null null
+2025-07-15 23:22:17.241 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7188/swagger/index.html - 200 null text/html;charset=utf-8 359.1908ms
+2025-07-15 23:22:17.289 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7188/_framework/aspnetcore-browser-refresh.js - null null
+2025-07-15 23:22:17.319 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7188/_framework/aspnetcore-browser-refresh.js - 200 13756 application/javascript; charset=utf-8 30.2941ms
+2025-07-15 23:22:17.483 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7188/_vs/browserLink - null null
+2025-07-15 23:22:17.548 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7188/_vs/browserLink - 200 null text/javascript; charset=UTF-8 64.5344ms
+2025-07-15 23:22:18.654 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7188/swagger/v1/swagger.json - null null
+2025-07-15 23:22:18.677 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7188/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 22.5347ms
